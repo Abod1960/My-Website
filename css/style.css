@@ -609,7 +609,7 @@ to{
 .project__image-6{
     background-image:url(../img/aon\ icons\ prev.png)
 }
-
+/*fields*/
 .field__image-1{
     background-image:url(../img/blogging.png)
 }
@@ -646,12 +646,48 @@ to{
 .field__image-6:hover{
     background-image:url(../img/Video\ Editing\ 1.png)
 }
-.blog__image-6{
-    background-image:url(../img/Video\ Editing.png)
+/*.*/
+/* blog*/
+.blog__image-1{
+    background-image:url(../img/hashnode.png)
 }
-.blog__image-6:hover{
-    background-image:url(../img/Video\ Editing\ 1.png)
+.blog__image-1:hover{
+    background-image:url(../img/hashnode\ hover.png)
 }
+.blog__image-2{
+    background-image:url(../img/blogger.png)
+}
+.blog__image-2:hover{
+    background-image:url(../img/blogger\ hover.png)
+}
+/*.*/
+
+/*customizing*/
+.customizing__image-1{
+    background-image:url(../img/nord\ cursor\ preview.png)
+}
+
+.customizing__image-2{
+    background-image:url(../img/aon\ icons\ prev.png)
+}
+
+.customizing__image-3{
+    background-image:url(../img/wall\ prev.png)
+}
+
+.customizing__image-4{
+    background-image:url(../img/dev\ cur\ prev.png)
+}
+
+.customizing__image-5{
+    background-image:url(../img/ipad\ pro\ cursor\ prev.png)
+}
+.customizing__image-6{
+    background-image:url(../img/hand\ painted\ prev.png)
+}
+
+
+/*.*/
 
 .project__head{
     display:-webkit-box;
