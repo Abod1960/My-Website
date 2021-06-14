@@ -646,6 +646,12 @@ to{
 .field__image-6:hover{
     background-image:url(../img/Video\ Editing\ 1.png)
 }
+.blog__image-6{
+    background-image:url(../img/Video\ Editing.png)
+}
+.blog__image-6:hover{
+    background-image:url(../img/Video\ Editing\ 1.png)
+}
 
 .project__head{
     display:-webkit-box;
