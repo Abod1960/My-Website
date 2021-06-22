@@ -1,0 +1,824 @@
+[Variables]
+
+;-------------------------------------
+;Basics
+;-------------------------------------
+
+LangFontSizeOffset=1
+
+Month1=يناير
+Month2=فبراير
+Month3=مارس
+Month4=ابريل
+Month5=مايو
+Month6=يونيو
+Month7=يوليو
+Month8=اغسطس
+Month9=سبتمبر
+Month10=اكتوبر
+Month11=نوفمبر
+Month12=ديسمبر
+
+Month1Shorthand=ينا
+Month2Shorthand=فبر
+Month3Shorthand=مار
+Month4Shorthand=ابر
+Month5Shorthand=ماي
+Month6Shorthand=يون
+Month7Shorthand=يول
+Month8Shorthand=اغس
+Month9Shorthand=سبم
+Month10Shorthand=اكت
+Month11Shorthand=نوف
+Month12Shorthand=ديس
+
+Day0=أحد
+Day1=اثنين
+Day2=ثلاثاء
+Day3=اربعاء
+Day4=خميس
+Day5=جمعة
+Day6=سبت
+
+Day1Shorthand=احد
+Day2Shorthand=اثن
+Day3Shorthand=ثلا
+Day4Shorthand=ارب
+Day5Shorthand=خمي
+Day6Shorthand=جمع
+Day7Shorthand=سبت
+
+StartMonday=1
+
+TimeMS=جزء من ثانية
+TimeSec=ثواني
+TimeMin=دقائق
+TimeHr=ساعات
+TimeDay=ايام
+TimeMth=شهور
+TimeYr=سنوات
+
+TimeMSshorthand=ج.ث
+TimeSecShorthand=ث
+TimeMinShorthand=د
+TimeHrShorthand=س
+TimeDayShorthand=يوم
+TimeMthShorthand=شهر
+TimeYearShorthand=سنة
+
+SayMoreIcons=اكثر
+SayRefreshingDroptop=...تحديث دروب توب
+SayRecommended=موصى به
+SayGo=تم
+
+PercentSymbolBefore=
+PercentSymbolAfter=%
+
+PercentSymbolBeforeB=
+PercentSymbolAfterB=#PercentSymbol#
+
+CurrencySymbolBefore=$
+CurrencySymbolAfter=
+
+NotificationCopy=تم النسخ الى الحافظة
+NotificationPlaying=يتم التشغيل الان
+NotificationMail=بريد جديد
+NotificationDownload=تم التحميل
+NotificationBatteryA=البطارية منخفضة...
+NotificationBatteryB=اشحن البطارية الان...
+
+ToolbarsItem0A=اضافة اختصار
+ToolbarsItem0B=الملف فارغ
+
+;-------------------------------------
+;Apps
+;-------------------------------------
+
+AppMenu=المستكشف
+
+AppName1=منظم اسطح المكتب
+AppName2=مركز الأشعارت
+AppName3=البحث
+AppName4=الوقت
+AppName5=البريد
+AppName6=المنبه
+AppName7=الصوت
+AppName8=الطقس
+AppName9=الشبكة والبلوتوث
+AppName10=البطارية
+AppName11=التنزيلات
+AppName12=الملفات الاخيرة
+AppName13=الملاحظات
+AppName14=اشياء مثبتة للنسخ
+AppName15=سعر الصرف
+AppName16=لغة الادخال
+AppName17=App drawer
+AppName18=Voice assistant
+
+AppItem1=اظهر زر مركز الاشعارات
+AppItem2=اظهر منظم أسطح المكتب
+AppItem3=اظهار الايقونات المخفية
+AppItem4=عرض الساعة المركزية
+
+;-------------------------------------
+;Home app
+
+HomeItem1A=شاشة بدء ويندوز
+HomeItem2A=عارض المهام
+
+HomeItem1=قائمة إعدادات دروب توب 
+HomeItem2=...قفل
+HomeItem3=...سكون
+HomeItem4=...إعادة بدء
+HomeItem5=...اطفاء
+HomeItem6=...تسجيل الخروج #USER#
+
+PowerMenu1=قفل
+PowerMenu2=سكون
+PowerMenu3=إعادة بدء
+PowerMenu4=إطفاء
+PowerMenu5=سجل الخروج
+
+PowerCancel=ألغِ
+
+;-------------------------------------
+;Application app
+
+ApplicationItem1=التطبيقات المفتوحة
+ApplicationItem2=...اظافة اختصار الى
+ApplicationItem3=مزيد من الخيارات
+ApplicationItem4=اوامر التطبيق
+ApplicationItem5A=فرض اغلاق
+ApplicationItem5B=#LastFocusedApp# #ApplicationItem5A#
+
+ApplicationItem3.1=فتح سطر الأوامر
+ApplicationItem3.2=فتح موقع التطبيق
+ApplicationItem3.3=حدد اسم التطبيق
+ApplicationItem3.4=تحديد الاختصارات
+
+;-------------------------------------
+;Application commands
+
+AppCommand1.1=نافذة جديدة للمستكشف
+
+;-------------------------------------
+;Time app
+
+TimeItem1=ضبط التاريخ والوقت
+TimeItem2.1=Microsoft عرض تقويم 
+TimeItem2.0=Google عرض تقويم
+TimeItem3=تعديل اعدادات الوقت
+
+;-------------------------------------
+;Mail app
+
+MailItem1=#GmailUsername# الوارد
+MailItem2=تعديل اعدادات البريد
+
+MailItem10=%1 رسائل جديدة
+MailItem11=#MailAuthor6# من
+
+MailError1=لم يتم تعيين عنوان بريد إلكتروني
+
+;-------------------------------------
+;Alarm app
+
+AlarmItem1=تشغيل/إيقاف التنبيه
+AlarmItem2=تغيير صوت التنبيه
+AlarmItem3=حدد أيام الأسبوع
+
+AlarmSub1A=اساسي
+AlarmSub1B=امن
+AlarmSub1C=روبوت
+AlarmSub1D=مسترخي
+AlarmSub1E=طبيعة
+AlarmSub1F=سعيد
+
+AlarmOverlay1=تجاهل التنبيه
+
+;-------------------------------------
+;Volume app
+
+VolumeItem1=صوت النظام
+VolumeItem2=
+VolumeItem3=مشغل الوسائط المفضل
+VolumeItem4=كتم عند عدم نشاط...
+
+VolumeItem1B=اظهر منظم الوسائط
+
+VolumeSub1A=الجهاز التالي
+VolumeSub1B=الجهاز السابق
+VolumeSub1C=اظهار كل الاجهزة
+
+VolumeSub2A=غير ذلك
+VolumeSub2B=مفاتيح المتحكمات في الوسائط
+
+VolumeSub3A=تعطيل
+VolumeSub3B=دقائق 5
+VolumeSub3C=دقائق 10
+VolumeSub3D=دقائق 30
+VolumeSub3E=دقائق 60
+
+VolumeBox1A=لا شيء يتم تشغيله الان
+VolumeBox1B=لا فنان
+
+VolumeBox2A=ابحث في جوجل عن اغاني منشودة
+
+VolumeTooltip1=WebNowPlaying احصل على إضافة  لتمكين#CRLF#YouTube و Twitch و SoundCloud من التحكم في#CRLF#Apple Music و YouTube Music و Pandora و#CRLF#من خلال متصفحات الويب Spotify و Tidal و#CRLF#.Chrome أو Edge أو Firefox#CRLF#
+VolumeTooltip2=احصل على الاضافة لـ :
+VolumeTooltip3=رفض
+
+;-------------------------------------
+;Weather app
+
+WeatherItem1=عرض توقعات الانترنت
+WeatherItem2=عرض خريطة الرادار للطقس 
+WeatherItem3=...تغيير إعدادات الطقس
+WeatherItem4A=...يتم التحديث
+
+WeatherBox1A=
+WeatherBox1B=
+WeatherBox1C=يبدو ك
+
+AMPMDay=اليوم
+AMPMNight=الليلة
+
+WeatherNoData=...
+
+TempSymbol0=ف
+TempSymbol1=س
+
+WindScale0=م ك س
+WindScale1=كم/س
+
+WindString1=#PREVmCurrentWindSpeed#
+WindString2=[#WindScale[#UnitsMetric]] #PREVmCurrentWindDirectionCardinal#
+
+;-------------------------------------
+;Wifi app
+
+WifiItem1=إتصل بشبكة
+WifiItem2=مركز الشبكة والمشاركة
+WifiItem3=تغيير اعدادات المحول
+WifiItem4=خيارات البلوتوث
+
+WifiBox1A=Ethernet
+WifiBox1B=Gateway
+WifiBox1C=DNS
+WifiBox1D=Mask
+WifiBox1E=Local
+WifiBox1F=Host
+WifiBox1G=Domain
+
+WifiSub1A=اضافة جهاز
+WifiSub1B=اظهار الاجهزة
+WifiSub1C=إرسال/استقبال
+
+;-------------------------------------
+;Battery app
+
+BatteryItem1=مشحونة بالكامل
+BatteryItem1A=البطارية
+BatteryItem1B=يتم الشحن
+BatteryItem2=اظهار الاجهزة الشغالة
+BatteryItem3=تغيير خيارات الطاقة
+
+;-------------------------------------
+;Downloads app
+
+DownloadsItem1=لا تنزيلات مسبقة
+
+DownloadsInfo1A="حذف"
+DownloadsInfo1B=مج 
+
+;-------------------------------------
+;Recent files app
+
+RecentItem1=لا ملفات سابقة
+
+RecentInfo1A=حذف الملفات السابقة؟
+
+;-------------------------------------
+;Paperclip app
+
+CopyItem1=الالوان
+CopyItem2=الظلال
+CopyItem3=عملات
+CopyItem4=احرف صغيرة
+CopyItem5=احرف كبيرة
+CopyItem6=الرياضيات
+CopyItem7=الاشكال
+CopyItem8=الصور التعبيرية
+CopyItem9=الاسهم
+CopyItem10=متنوع
+CopyItem11=قوائم قابلة للتخصيص
+CopyItem12=تعديل حالة الحافظة
+
+CopyItem1B=التقاط لقطة للشاشة
+
+CopySub1A=تخصيص هذه القائمة
+
+CopySub2A=احرف صغيرة
+CopySub2B=احرف كبيرة
+CopySub2C=حالة الجملة
+CopySub2D=اول حر ف كبير
+CopySub2E=اول حرف صغير
+CopySub2F=حرف وحرف
+CopySub2G=كلمة_شارحة
+CopySub2H=كلمة-شرطة
+
+;-------------------------------------
+;Exchange rate app
+
+ExchangeItem1=محول العملات
+ExchangeItem2=استخدام عملة اخرى
+
+ExchangeItem1A=محدث:
+ExchangeItem1B=...يتم التحديث
+
+ExchangeSub1A=Euro
+ExchangeSub1B=US Dollar
+ExchangeSub1C=GB Pound
+
+;-------------------------------------
+;Context/Dialog menus
+;-------------------------------------
+
+;-------------------------------------
+;Bar context menu
+
+Context1Item1=إعدادات دروب توب
+Context1Item2=ضبط إعدادات الحجم
+Context1Item3=انتقل الى منظم الشاشة
+Context1Item4=المزيد من الخيارات
+Context1Item5=اصلاح النوافذ خلف الشريط
+
+Context1Item1A=المظهر
+Context1Item1B=أشرطة الادوات
+Context1Item1C=خيارات
+Context1Item1D=الطقس
+Context1Item1E=البريد
+Context1Item1F=الدعم
+
+Context1Item2A=80#PercentSymbol# تكبير
+Context1Item2B=90#PercentSymbol# تكبير
+Context1Item2C=100#PercentSymbol# تكبير
+Context1Item2D=120#PercentSymbol# تكبير
+Context1Item2E=140#PercentSymbol# تكبير
+Context1Item2F=160#PercentSymbol# تكبير
+Context1Item2G=180#PercentSymbol# تكبير
+Context1Item2H=200#PercentSymbol# تكبير
+
+Context1Item3A=اختيار
+Context1Item3B=شاشة متعددة
+Context1Item3C=حرك لليمين
+Context1Item3D=حرك لليسار
+Context1Item3E=مدد الشريط
+Context1Item3F=تراجع عن التمدد
+
+Context1Item4A=اسفل
+Context1Item4B=يسار
+Context1Item4C=يمين
+Context1Item4D=لا شريط مهام
+
+Context1Item5A=اخرج/أعد بدء دروب توب
+Context1Item5B=إخف دروب توب
+Context1Item5C=أظهر سطح المكتب
+Context1Item5D=ائتمانات دروب توب 
+
+ContextBox1A=اعرض دروب توب دائمًا  
+
+Context1Item3TooltipTitleA=الخيار معطل
+Context1Item3TooltipContentA= لنقل دروب توب إلى شاشة غير أساسية ، قم بتعطيل وضع "#ContextBox1A#".
+
+Context1Item3TooltipTitleB=الخيار معطل
+Context1Item3TooltipContentB=شاشة عرض واحدة أو أكثر لها دقة غير متطابقة. اضبط كل شاشة على نفس الدقة (مثل 1920x1080) لتمكين هذه الميزة.
+
+;-------------------------------------
+;Toolbars context menu
+
+Context2Item1=افتح موقع المجلد
+Context2Item2=...خصائص شريط الأدوات
+
+Context2Item1B=إظهار قائمة التطبيق
+
+Context2Item10=مقفل
+
+;-------------------------------------
+;Function dialog menu
+
+FunctionTitle1=اخفاء تلقائي
+FunctionTitle2=على سطح المكتب فقط
+
+FunctionTitle1A=تحويل لوضع الاخفاء التلقائي
+FunctionTitle1B=سيظهر دروب توب عندما يلمس المؤشر الجزء العلوي من الشاشة ، ويختفي عند عدم الحاجة إليه.
+
+FunctionTitle2A=التبديل إلى وضع سطح المكتب فقط
+FunctionTitle2B=سيظهر دروب توب على سطح المكتب فقط.
+
+FunctionTitle3A=التبديل إلى وضع العرض دائمًا
+FunctionTitle3B=سيتم إرساء شريط دروب توب في الجزء العلوي من شاشتك ، ويمكن الوصول إليه حتى عند تكبير النوافذ.
+
+FunctionAction1=الغ
+FunctionAction2=تفعيل الان
+
+;-------------------------------------
+;High DPI dialog menu
+
+HighDPITitle1A=العالي؟ DPI تمكين وضع  
+HighDPITitle1B= DPI سيعمل وضعالعالي على إصلاح النصوص والصور غير الواضحة باستخدام دروب توب#CRLF#عن طريق تعطيل القياس التلقائي بواسطة Windows عند استخدام شاشة عالية الدقة.
+
+HighDPITitle2A=الحفاظ على هذا الإعداد؟
+HighDPITitle2B=High DPI Mode can be turned on/off manually#CRLF#in the Options tab of the دروب توب settings menu.
+
+HighDPIAction1A=ليس الان
+HighDPIAction1B=تفعيل الان
+
+HighDPIAction2A=العودة
+HighDPIAction2B=ابق الإعداد
+
+;-------------------------------------
+;Confirm location dialog menu
+
+ConfirmLocTitle1=تم نقل دروب توب إلى موقع جديد
+ConfirmLocTitle2=العودة إلى الموضع الافتراضي خلال %1 ثانية
+ConfirmLocAction1=تأكيد الموقع الجديد
+
+;-------------------------------------
+;Exit/Restart dialog menu
+
+ExitRestartTitle1=تحديد الخيار
+
+ExitRestartAction1=خروج من دروب توب
+ExitRestartAction2=Rainmeter أعد تشغيل 
+ExitRestartAction3=الغ
+
+;-------------------------------------
+;Settings menu
+;-------------------------------------
+
+ThemeName1=الافتراضي
+ThemeName2=طفو حر
+ThemeName3=ريترو
+ThemeName4=كاثود
+ThemeName5=مسطحة وصلبة
+ThemeName6=شفاف
+ThemeName7=Dapill
+ThemeName8=Ubuntu
+ThemeName9=Windows 95
+ThemeName10=Catalina
+ThemeName11=Big Sur
+ThemeName12=Chrome OS
+ThemeName13=الحد الأدنى
+ThemeName14=علم
+ThemeName15=كلاسيكي
+ThemeName16=Elementary OS
+ThemeName17=هادئ
+ThemeName18=Macintosh
+ThemeName19=Gameboy
+ThemeName20=محطة
+ThemeName21=Senja
+ThemeName22=Discord
+
+;---
+ 
+SettingsVersion=#SkinVersion#.#SkinVersionMini# دروب توب الإصدار
+SettingsApply=تفعيل
+
+SettingsTab0=المظهر
+SettingsTab1=اشرطة الادوات
+SettingsTab2=خيارات
+SettingsTab3=الطقس
+SettingsTab4=البريد
+SettingsTab5=الدعم
+
+;-------------------------------------
+;Appearance tab
+
+Settings1Part1.1=اختر
+Settings1Part1.0=الغ القفل
+
+Settings1Part2.0=الالوان
+Settings1Part2.1=الشفافية
+Settings1Part2.2=الشكل
+Settings1Part2.3=اكثر
+
+Settings1Part3.0=الخلفية 1
+Settings1Part3.1=الخلفية 2
+Settings1Part3.2=المضلل
+Settings1Part3.3=لون الخط
+Settings1Part3.4=لون الخط 2
+Settings1Part3.5=لون الخط 3
+
+Settings1Part3Overlay=لضبط اللون ، حدد لونًا من القائمة أعلاه.
+
+Settings1Part4A=تعيين اللون حسب الخلفية
+Settings1Part4B=إعادة
+Settings1Part4C=مخططات الوان جاهزة
+
+Settings1Part10A=شفافية شريط دروب توب
+Settings1Part10B=شفافية القائمة المنسدلة
+
+Settings1Part11A=تشويش شريط المنسدلة
+Settings1Part11B=تشويش القائمة المنسدلة
+Settings1Part11C=تشويش قائمة الحوار والإعدادات
+Settings1Part11D=MacOS استخدم تأثير تشويش
+
+Settings1Part20A=قياس دروب توب
+
+Settings1Part21A=تغيير سهم القائمة الفرعية
+Settings1Part21B=إخفاء جميع ايقونات القائمة
+Settings1Part21C=إخفاء ايقونات القوائم الفرعية
+
+Settings1Part22A=تدرج رمادي لايقونات القوائم
+Settings1Part22B=تدرج رمادي خفيف على الشريط
+Settings1Part22C=اظهر الضلال على الشريط والقوائم
+Settings1Part22D=زوايا محدبة
+Settings1Part22E=امالة حواف الشكل المضلل
+
+Settings1Part30A=داكن
+Settings1Part30B=فاتح
+Settings1Part30C=ملون
+
+Settings1Part40A=غير الخط
+Settings1Part40B=حجم الخط
+Settings1Part40C=موقع الخط
+Settings1Part40D=حجم الايقونة
+Settings1Part40E=مثال
+
+;-------------------------------------
+;Toolbars tab
+
+Settings2Part2A=اعادة تسمية [#ToolbarTitle[#SelectedToolbar]]
+
+Settings2Part3.1=فرز المجلد حسب الاسم
+Settings2Part3.2=فرز المجلد حسب الحجم
+Settings2Part3.3=فرز المجلد حسب النوع
+Settings2Part3.4=فرز المجلد حسب التعديل
+Settings2Part3.5=فرز المجلد حسب الإنشاء
+
+Settings2Part4A=الفرز تصاعديا
+Settings2Part4B=اعرض الملفات
+Settings2Part4C=إظهار المجلدات
+Settings2Part4D=عرض ملفات النظام
+Settings2Part4E=إظهار العناصر المخفية
+Settings2Part4F=إظهار الامتدادات
+Settings2Part4G=تمكين شريط الأدوات
+
+Settings2Dialog1A=اختر مسار جديداً
+Settings2Dialog1B=اختر هذا المجلد
+
+;-------------------------------------
+;Options tab
+
+Settings3Part0A=عد الى التطبيقات
+
+Settings3Part1A=التطبيقات
+Settings3Part1B=القوائم
+Settings3Part1C=اكثر
+
+Settings3Part2A=تغيير تنسيق الوقت
+Settings3Part2B=استخدم 24 ساعة
+Settings3Part2C=استخدم تنسيق الأصفار في الوقت
+Settings3Part2D=عرض الساعة المركزية
+Settings3Part2E=إظهار نسبة البطارية
+Settings3Part2F=أظهر عنوان الأغنية دائمًا على الشريط
+Settings3Part2G=تحويل
+Settings3Part2H=للبحث Alt+Space استخدم
+Settings3Part2I=تغيير موقع مجلد التنزيلات
+Settings3Part2J=تصفية الملفات الأخيرة
+Settings3Part2K=اظهر منظم الوسائط
+Settings3Part2L=إظهار المناسبات في التقويم
+Settings3Part2M=بدء الاسبوع من الاثنين
+
+SettingsTimeFormat1A=[MeasureTime]
+SettingsTimeFormat2A=[MeasureDayName1] [MeasureTime]
+SettingsTimeFormat3A=[MeasureDayName2] [MeasureTime]
+SettingsTimeFormat4A=[MeasureMonthName2] [MeasureDayNum]  [MeasureTime]
+SettingsTimeFormat5A=[MeasureDayName2] [MeasureMonthName2] [MeasureDayNum] [MeasureTime]
+SettingsTimeFormat6A=[MeasureDayName1] [MeasureMonthName1] [MeasureDayNum]  [MeasureTime]
+SettingsTimeFormat7A=[MeasureDayNum]/[MeasureMonthNum]/[MeasureYear1]
+
+SettingsTimeFormat1B=%[#TimeLeadingZero[#TimeLeadingZeroNum]][#TimeFormatA[#Time24HourNum]]:%M [#TimeFormatB[#Time24HourNum]]
+SettingsTimeFormat2B=%a %[#TimeLeadingZero[#TimeLeadingZeroNum]][#TimeFormatA[#Time24HourNum]]:%M [#TimeFormatB[#Time24HourNum]]
+SettingsTimeFormat3B=%A %[#TimeLeadingZero[#TimeLeadingZeroNum]][#TimeFormatA[#Time24HourNum]]:%M [#TimeFormatB[#Time24HourNum]]
+SettingsTimeFormat4B=%B %[#TimeLeadingZero[#TimeLeadingZeroNum]]d  %[#TimeLeadingZero[#TimeLeadingZeroNum]][#TimeFormatA[#Time24HourNum]]:%M [#TimeFormatB[#Time24HourNum]]
+SettingsTimeFormat5B=%A %B %[#TimeLeadingZero[#TimeLeadingZeroNum]]d  %[#TimeLeadingZero[#TimeLeadingZeroNum]][#TimeFormatA[#Time24HourNum]]:%M [#TimeFormatB[#Time24HourNum]]
+SettingsTimeFormat6B=%a %b %[#TimeLeadingZero[#TimeLeadingZeroNum]]d  %[#TimeLeadingZero[#TimeLeadingZeroNum]][#TimeFormatA[#Time24HourNum]]:%M [#TimeFormatB[#Time24HourNum]]
+SettingsTimeFormat7B=%[#TimeLeadingZero[#TimeLeadingZeroNum]]d/%[#TimeLeadingZero[#TimeLeadingZeroNum]]m/%y
+
+RegionDateFormat=%[#TimeLeadingZero[#TimeLeadingZeroNum]]d/%[#TimeLeadingZero[#TimeLeadingZeroNum]]m/%y %[#TimeLeadingZero[#TimeLeadingZeroNum]]H:%M
+
+;---
+
+Settings3Part10A=إخفاء تلقائي:عرض تأخير [Section3Text1Calc] ثانية
+Settings3Part10B=لا تأخير
+Settings3Part10C=عرض الشريط مع 0.3 ثانية تأخير
+Settings3Part10D=عرض الشريط مع 0.5 ثانية تأخير
+Settings3Part10E=عرض الشريط مع 1.0 ثانية تأخير
+
+Settings3Part11A=:نقرة وسط
+Settings3Part11.1=يفتح الخصائص
+Settings3Part11.1B=يفتح خصائص الملف/المجلد
+Settings3Part11.2=يفتح الملف / المجلد
+Settings3Part11.3=لا يفعل شيئا
+
+Settings3Part12A=إظهار الأزرار أسفل أشرطة الأدوات
+Settings3Part12B=تأثير التلاشي عند فتح القوائم
+Settings3Part12C=تأثير الانزلاق (وضع الإخفاء تلقائي)
+Settings3Part12D=مرر المؤشر فوق المجلدات لفتحها
+
+;---
+
+Settings3Tooltip1A=العالي DPI إصلاح الفراغ مع 
+Settings3Tooltip1B=يعمل على إصلاح مشكلات التباعد عند تجاوز مقياس DPI العالي
+
+Settings3Tooltip2A=التجريبي العالي DPI وضع 
+Settings3Tooltip2B=دقة 1:1 بكسل عند استخدام شاشة عرض عالية الدقة
+
+Settings3Tooltip3A=EXE بدلاً من AHK استخدم
+Settings3Tooltip3B=استخدم ملفات AHK بدلاً من ملفات EXE لإجراءات AutoHotkey، مما يحسن السرعة. يجب تثبيت. (www.autohotkey.com)
+
+Settings3Part30A=تغيير اللغة
+
+Settings3Part31A=إصلاح المساحة مع DPI العالي
+Settings3Part31B=وضع DPI التجريبي العالي
+
+Settings3Part32A=استخدم AHK بدلاً من EXE
+
+Settings3Part33A=غير اسم المستخدم
+
+Settings3Part34A=تفعيل السحب والافلات
+
+Settings3Dialog1A=يجب إعادة بدء Rainmeter
+Settings3Dialog1B=لتبديل وضع DPI العالي التجريبي ، يحتاج Rainmeter إلى إعادة التشغيل.
+Settings3Dialog1C=الغ
+Settings3Dialog1D=اعد البدء 
+
+;-------------------------------------
+;Weather tab
+
+Settings4Part1A=أظهر درجة الحرارة بالنظام المئوي
+
+Settings4Part2A=تغيير موقع الطقس ...
+Settings4Part2B=البحث عن الموقع ...
+Settings4Part2C=الموقع غير موجود ...
+
+;-------------------------------------
+;Gmail tab
+
+Settings5Part1A=اسم المستخدم 
+Settings5Part1B=كلمة السر 
+
+Settings5Part2A=أخف رقم البريد الإلكتروني
+Settings5Part2B=Gmail إخفاء معاينة البريد في
+
+Settings5Part3A=البريد لا يعمل؟
+Settings5Part3B=مكن التطبيقات الأقل أمانًا
+
+;-------------------------------------
+;Support tab
+
+Settings6Part1.1=تحقق من التحديثات
+Settings6Part1B=:) دروب توب محدث
+Settings6Part1C=يتم البحث ...
+Settings6Part1.0=احصل على نسخة الداعم
+Settings6Part1E=الإصدار [NewVersionNum] متاح
+
+Settings6Part2A=تم إنشاء دروب توب بواسطة
+
+Settings6Part7A=زر موقعنا
+Settings6Part7B=الإبلاغ عن مشكلة
+Settings6Part7C=اسئلة متكررة
+Settings6Part7D=Dicord إنضم الى مجتمع ال
+
+;-------------------------------------
+;Welcome screen
+;-------------------------------------
+
+Welcome2TitleA=اختر الطريقة التي تريد أن يظهر بها دروب توب على شاشتك
+
+Welcome2Part1A=اعرض دروب توب دائمًا 
+Welcome2Part1B=سيحتفظ تطبيق دروب توب بجزء من مساحة شاشتك ، وسيكون دائمًا مرئيًا ويمكن الوصول إليه في الجزء العلوي من الشاشة. (موصى به)
+
+Welcome2Part2A=اخفاء تلقائي
+Welcome2Part2B=.سيظهر دروب توب عند تحريك المؤشر إلى أعلى الشاشة ويختفي عند عدم الحاجة إليه
+
+Welcome2Part3A=سطح المكتب فقط
+Welcome2Part3B=.سيكون دروب توب مرئيًا فقط عند عرض سطح المكتب ، ولن يكون متاحًا عند تكبير النوافذ
+
+;---
+
+Welcome3Part1A=اعدادات البريد
+Welcome3Part1B=اسم المستخدم 
+Welcome3Part1C=كلمة السر 
+
+Welcome3Part2A=Enter لتأكيد إدخالك بعد الكتابة، اضغط على #CRLF##CRLF#* يتطلب "جيميل" تمكين "السماح بالتطبيقات#CRLF#الأقل أمانًا" في حساب جوجل الخاص بك#CRLF#.Rainmeter حتى يعمل "جيميل" بشكل صحيح مع
+Welcome3Part2B=تفعيل الان
+
+Welcome3Part10A=مشغل الوسائط المفضل لديك
+
+Welcome3Part11A=Spotify
+Welcome3Part11B=iTunes
+Welcome3Part11C=Winamp Player
+Welcome3Part11D=YouTube, Soundcloud, etc.
+Welcome3Part11E=.غير ذلك
+
+;---
+
+Welcome4TitleA=تخصيص مظهر شريط القائمة المنسدلة
+
+Welcome4Part1A=حدد زر الصفحة الرئيسية
+Welcome4Part1B=قم بالترقية إلى الإصدار الداعم#CRLF#.لفتح 300 أيقونة لصفحة البدء
+
+Welcome4Part10A=اختر حجمًا لشريط دروب توب 
+
+Welcome4Part11A=صغير
+Welcome4Part11B=متوسط
+Welcome4Part11C=كبير
+
+Welcome4Part12A=* يمكن تغيير الحجم لاحقًا في إعدادات دروب توب
+
+;---
+
+Welcome5TitleA=اختر خيار اللون
+
+Welcome5Part1A=تعيين اللون حسب خلفية سطح المكتب
+Welcome5Part1B=سيقوم دروب توب تلقائيًا بتحديد لون يتناسب مع صورة خلفية سطح المكتب. (موصى به)
+
+Welcome5Part2A=اللون الداكن
+Welcome5Part2B=استخدم مظهرًا داكنًا للأزرار والقوائم. هذا الخيار هو الأنسب لصور خلفية سطح المكتب الداكنة.
+
+Welcome5Part3A=لون فاتح
+Welcome5Part3B=استخدم مظهرًا فاتحاً للأزرار والقوائم. هذا الخيار هو الأنسب لصور خلفية سطح المكتب الافتح.
+
+;---
+
+Welcome6TitleA=ادعم هذا المشروع بالترقية إلى الإصدار الداعم
+
+Welcome6Part1A=ادفع ما تريد
+Welcome6Part1B=نسخة الداعم
+Welcome6Part1C=أشرطة أدوات إضافية 6#CRLF#تنسيقاً إضافيا 18#CRLF#ايقونة لصفحة البدء 300#CRLF#التحديث عند التوافر
+Welcome6Part1D=التبرع المفضل: 5 دولارات
+
+Welcome6Part10A=مجاني
+Welcome6Part10B=الاصدار الاساسي
+Welcome6Part10C=تنسيقات أساسية 4#CRLF#أيقونات لصفحة البدء 7#CRLF#التحديث عند التوافر
+
+;---
+
+Welcome7Title1A=Rainmeter دعم مجتمع
+Welcome7Title1B=كن داعماً لهذا المشروع
+
+Welcome7Title2A=شكراً لدعمكم
+Welcome7Title2B=سيتم توجيهك إلى صفحة الدفع
+
+Welcome7Part1A=سيتلقى الداعمون:
+Welcome7Part1B=✔ شريط أدوات قابل للتخصيص بالكامل 12#CRLF#✔ تنسيقاً للاختيار من بينها 22#CRLF#✔ ايقونة للصفحة الرئيسية 300#CRLF#✔ التحديثات عند توفرها
+
+Welcome7Part2A=ارجع إلى الدعم
+Welcome7Part2B=ربما لاحقا
+
+Welcome7Part10A=الاصدار الكامل
+
+;-------------------------------------
+;Thank you screen
+
+ThankyouTitleA=نجح!
+ThankyouTitleB=لقد ألغيت قفل ميزات إصدار الداعم
+
+ThankyouPart1A=لقد الغيت القفل:
+
+ThankyouPart2A=✔ ايقونة للصفحة الرئيسية 300
+ThankyouPart2B=✔ أشرطة أدوات إضافية قابلة للتخصيص بالكامل 6
+ThankyouPart2C=✔ تنسيقاً إضافية للاختيار من بينها 18
+ThankyouPart2D=✔ التحديثات عند توفرها
+
+ThankyouPart3A=استمر
+
+;-------------------------------------
+;Tutorial
+
+TutorialTitle1=أضف أو ازل التطبيقات
+TutorialTitle2=فقط اسحب وافلت
+TutorialTitle3=أعد تسمية أي شريط أدوات
+TutorialTitle4=غير ألايقونة الرئيسية
+TutorialTitle5=هذه هي الأساسيات
+
+TutorialContent1=.انقر بزر الماوس الأيمن فوق أيقونات علبة النظام لإضافة التطبيقات أو إزالتها من العرض
+TutorialContent2=.تعد إضافة التطبيقات والاختصارات أمرًا سهلاً. انقر بزر الماوس الأيمن فوق أي شريط أدوات وحدد "فتح موقع المجلد" للبدء
+TutorialContent3=.إعادة تسمية أشرطة الأدوات أو فرزها أو تعديلها. انقر بزر الماوس الأيمن فوق أي شريط أدوات وحدد "خصائص شريط الأدوات" لإجراء التغييرات
+TutorialContent4=.يوجد 300 أيقونة منزل للاختيار من بينها عن طريق الترقية إلى نسخة الداعم. انقر بزر الماوس الأيمن على زر الصفحة الرئيسية للاختيار من قائمة الرموز المتاحة
+TutorialContent5=.انقر بزر الماوس الأيمن فوق مساحة فارغة على الشريط للعثور على المزيد من الخيارات ، بما في ذلك قياس الحجم واختيار الشاشة
+
+TutorialPart1A=تخطي البرنامج التعليمي
+
+TutorialPart2A=النصيحة التالية
+TutorialPart2B=انتهى
+
+;-------------------------------------
+;Update screen
+
+UpdateTitleA=تم التحديث إلى الإصدار #SkinVersion#
+
+UpdateTextA=راجع droptopfour.com للحصول لاي ملاحظات للتغير
