@@ -84,8 +84,8 @@ NotificationCopy=تم النسخ الى الحافظة
 NotificationPlaying=يتم التشغيل الان
 NotificationMail=بريد جديد
 NotificationDownload=تم التحميل
-NotificationBatteryA=البطارية منخفضة...
-NotificationBatteryB=اشحن البطارية الان...
+NotificationBatteryA=...البطارية منخفضة
+NotificationBatteryB=... اشحن البطارية الان 
 
 ToolbarsItem0A=اضافة اختصار
 ToolbarsItem0B=الملف فارغ
@@ -112,8 +112,8 @@ AppName13=الملاحظات
 AppName14=اشياء مثبتة للنسخ
 AppName15=سعر الصرف
 AppName16=لغة الادخال
-AppName17=App drawer
-AppName18=Voice assistant
+AppName17=التطبيقات المخفية
+AppName18=المساعد الصوتي
 
 AppItem1=اظهر زر مركز الاشعارات
 AppItem2=اظهر منظم أسطح المكتب
@@ -144,7 +144,7 @@ PowerCancel=ألغِ
 ;-------------------------------------
 ;Application app
 
-ApplicationItem1=التطبيقات المفتوحة
+ApplicationItem1=عرض التطبيقات الشغالة
 ApplicationItem2=...اظافة اختصار الى
 ApplicationItem3=مزيد من الخيارات
 ApplicationItem4=اوامر التطبيق
@@ -153,7 +153,7 @@ ApplicationItem5B=#LastFocusedApp# #ApplicationItem5A#
 
 ApplicationItem3.1=فتح سطر الأوامر
 ApplicationItem3.2=فتح موقع التطبيق
-ApplicationItem3.3=حدد اسم التطبيق
+ApplicationItem3.3=حدد اسماً للتطبيق
 ApplicationItem3.4=تحديد الاختصارات
 
 ;-------------------------------------
@@ -202,7 +202,7 @@ AlarmOverlay1=تجاهل التنبيه
 VolumeItem1=صوت النظام
 VolumeItem2=
 VolumeItem3=مشغل الوسائط المفضل
-VolumeItem4=كتم عند عدم نشاط...
+VolumeItem4=...كتم عند عدم نشاط
 
 VolumeItem1B=اظهر منظم الوسائط
 
@@ -225,7 +225,7 @@ VolumeBox1B=لا فنان
 VolumeBox2A=ابحث في جوجل عن اغاني منشودة
 
 VolumeTooltip1=WebNowPlaying احصل على إضافة  لتمكين#CRLF#YouTube و Twitch و SoundCloud من التحكم في#CRLF#Apple Music و YouTube Music و Pandora و#CRLF#من خلال متصفحات الويب Spotify و Tidal و#CRLF#.Chrome أو Edge أو Firefox#CRLF#
-VolumeTooltip2=احصل على الاضافة لـ :
+VolumeTooltip2=:  احصل على الاضافة لـ
 VolumeTooltip3=رفض
 
 ;-------------------------------------
@@ -280,7 +280,7 @@ WifiSub1C=إرسال/استقبال
 BatteryItem1=مشحونة بالكامل
 BatteryItem1A=البطارية
 BatteryItem1B=يتم الشحن
-BatteryItem2=اظهار الاجهزة الشغالة
+BatteryItem2=مدير المهام
 BatteryItem3=تغيير خيارات الطاقة
 
 ;-------------------------------------
@@ -333,12 +333,12 @@ CopySub2H=كلمة-شرطة
 ExchangeItem1=محول العملات
 ExchangeItem2=استخدام عملة اخرى
 
-ExchangeItem1A=محدث:
+ExchangeItem1A=:محدث
 ExchangeItem1B=...يتم التحديث
 
-ExchangeSub1A=Euro
-ExchangeSub1B=US Dollar
-ExchangeSub1C=GB Pound
+ExchangeSub1A=يورو
+ExchangeSub1B=دولار امريكي
+ExchangeSub1C=جنيه إسترليني
 
 ;-------------------------------------
 ;Context/Dialog menus
@@ -349,7 +349,7 @@ ExchangeSub1C=GB Pound
 
 Context1Item1=إعدادات دروب توب
 Context1Item2=ضبط إعدادات الحجم
-Context1Item3=انتقل الى منظم الشاشة
+Context1Item3= شاشات متعددة
 Context1Item4=المزيد من الخيارات
 Context1Item5=اصلاح النوافذ خلف الشريط
 
@@ -389,10 +389,10 @@ Context1Item5D=ائتمانات دروب توب
 ContextBox1A=اعرض دروب توب دائمًا  
 
 Context1Item3TooltipTitleA=الخيار معطل
-Context1Item3TooltipContentA= لنقل دروب توب إلى شاشة غير أساسية ، قم بتعطيل وضع "#ContextBox1A#".
+Context1Item3TooltipContentA=. "#ContextBox1A#" لنقل دروب توب إلى شاشة غير أساسية ، قم بتعطيل وضع
 
 Context1Item3TooltipTitleB=الخيار معطل
-Context1Item3TooltipContentB=شاشة عرض واحدة أو أكثر لها دقة غير متطابقة. اضبط كل شاشة على نفس الدقة (مثل 1920x1080) لتمكين هذه الميزة.
+Context1Item3TooltipContentB=شاشة عرض واحدة أو أكثر لها دقة غير متطابقة. اضبط كل شاشة على نفس الدقة ( 1920x1080 مثلاً) لتمكين هذه الميزة.
 
 ;-------------------------------------
 ;Toolbars context menu
@@ -429,7 +429,7 @@ HighDPITitle1A=العالي؟ DPI تمكين وضع
 HighDPITitle1B= DPI سيعمل وضعالعالي على إصلاح النصوص والصور غير الواضحة باستخدام دروب توب#CRLF#عن طريق تعطيل القياس التلقائي بواسطة Windows عند استخدام شاشة عالية الدقة.
 
 HighDPITitle2A=الحفاظ على هذا الإعداد؟
-HighDPITitle2B=High DPI Mode can be turned on/off manually#CRLF#in the Options tab of the دروب توب settings menu.
+HighDPITitle2B=.العالي يمكن تفعيله\تعطيله من خلال الخيارات في قائمة اعدادات دروب توب DPI وضع 
 
 HighDPIAction1A=ليس الان
 HighDPIAction1B=تفعيل الان
@@ -510,7 +510,7 @@ Settings1Part3.3=لون الخط
 Settings1Part3.4=لون الخط 2
 Settings1Part3.5=لون الخط 3
 
-Settings1Part3Overlay=لضبط اللون ، حدد لونًا من القائمة أعلاه.
+Settings1Part3Overlay=.لضبط اللون ، حدد لونًا من القائمة أعلاه
 
 Settings1Part4A=تعيين اللون حسب الخلفية
 Settings1Part4B=إعادة
@@ -549,13 +549,13 @@ Settings1Part40E=مثال
 ;-------------------------------------
 ;Toolbars tab
 
-Settings2Part2A=اعادة تسمية [#ToolbarTitle[#SelectedToolbar]]
+Settings2Part2A="[#ToolbarTitle[#SelectedToolbar]]" اعادة تسمية 
 
 Settings2Part3.1=فرز المجلد حسب الاسم
 Settings2Part3.2=فرز المجلد حسب الحجم
 Settings2Part3.3=فرز المجلد حسب النوع
-Settings2Part3.4=فرز المجلد حسب التعديل
-Settings2Part3.5=فرز المجلد حسب الإنشاء
+Settings2Part3.4=فرز المجلد حسب تاريخ التعديل
+Settings2Part3.5=فرز المجلد حسب تاريخ الإنشاء
 
 Settings2Part4A=الفرز تصاعديا
 Settings2Part4B=اعرض الملفات
@@ -578,16 +578,16 @@ Settings3Part1B=القوائم
 Settings3Part1C=اكثر
 
 Settings3Part2A=تغيير تنسيق الوقت
-Settings3Part2B=استخدم 24 ساعة
+Settings3Part2B=24 استخدم ساعة
 Settings3Part2C=استخدم تنسيق الأصفار في الوقت
 Settings3Part2D=عرض الساعة المركزية
-Settings3Part2E=إظهار نسبة البطارية
+Settings3Part2E=أظهر نسبة البطارية
 Settings3Part2F=أظهر عنوان الأغنية دائمًا على الشريط
 Settings3Part2G=تحويل
 Settings3Part2H=للبحث Alt+Space استخدم
 Settings3Part2I=تغيير موقع مجلد التنزيلات
 Settings3Part2J=تصفية الملفات الأخيرة
-Settings3Part2K=اظهر منظم الوسائط
+Settings3Part2K=أظهر منظم الوسائط
 Settings3Part2L=إظهار المناسبات في التقويم
 Settings3Part2M=بدء الاسبوع من الاثنين
 
@@ -617,11 +617,11 @@ Settings3Part10C=عرض الشريط مع 0.3 ثانية تأخير
 Settings3Part10D=عرض الشريط مع 0.5 ثانية تأخير
 Settings3Part10E=عرض الشريط مع 1.0 ثانية تأخير
 
-Settings3Part11A=:نقرة وسط
-Settings3Part11.1=يفتح الخصائص
-Settings3Part11.1B=يفتح خصائص الملف/المجلد
-Settings3Part11.2=يفتح الملف / المجلد
-Settings3Part11.3=لا يفعل شيئا
+Settings3Part11A=:نقرة الوسط
+Settings3Part11.1=تفتح الخصائص
+Settings3Part11.1B=تفتح خصائص الملف/المجلد
+Settings3Part11.2=تفتح الملف / المجلد
+Settings3Part11.3=لا تفعل شيئا
 
 Settings3Part12A=إظهار الأزرار أسفل أشرطة الأدوات
 Settings3Part12B=تأثير التلاشي عند فتح القوائم
@@ -641,17 +641,17 @@ Settings3Tooltip3B=استخدم ملفات AHK بدلاً من ملفات EXE ل
 
 Settings3Part30A=تغيير اللغة
 
-Settings3Part31A=إصلاح المساحة مع DPI العالي
-Settings3Part31B=وضع DPI التجريبي العالي
+Settings3Part31A= العالي DPI  إصلاح المساحة مع
+Settings3Part31B=التجريبي العالي DPI وضع  
 
-Settings3Part32A=استخدم AHK بدلاً من EXE
+Settings3Part32A= EXE بدلا من AHK استخدم
 
 Settings3Part33A=غير اسم المستخدم
 
 Settings3Part34A=تفعيل السحب والافلات
 
-Settings3Dialog1A=يجب إعادة بدء Rainmeter
-Settings3Dialog1B=لتبديل وضع DPI العالي التجريبي ، يحتاج Rainmeter إلى إعادة التشغيل.
+Settings3Dialog1A=Rainmeter يجب إعادة بدء 
+Settings3Dialog1B= .لإعادة التشغيل Rainmeter العالي التجريبي يحتاج  DPI لتبديل وضع
 Settings3Dialog1C=الغ
 Settings3Dialog1D=اعد البدء 
 
@@ -660,9 +660,9 @@ Settings3Dialog1D=اعد البدء
 
 Settings4Part1A=أظهر درجة الحرارة بالنظام المئوي
 
-Settings4Part2A=تغيير موقع الطقس ...
-Settings4Part2B=البحث عن الموقع ...
-Settings4Part2C=الموقع غير موجود ...
+Settings4Part2A=...تغيير موقع الطقس 
+Settings4Part2B=...البحث عن الموقع 
+Settings4Part2C=...الموقع غير موجود 
 
 ;-------------------------------------
 ;Gmail tab
@@ -681,7 +681,7 @@ Settings5Part3B=مكن التطبيقات الأقل أمانًا
 
 Settings6Part1.1=تحقق من التحديثات
 Settings6Part1B=:) دروب توب محدث
-Settings6Part1C=يتم البحث ...
+Settings6Part1C=... يتم البحث 
 Settings6Part1.0=احصل على نسخة الداعم
 Settings6Part1E=الإصدار [NewVersionNum] متاح
 
