@@ -575,6 +575,70 @@ to{
         grid-column:1
     }
 }
+.projects__project-7{
+    grid-row:3;
+    grid-column:1
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-7{
+        grid-row:4;
+        grid-column:1
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-7{
+        grid-row:7;
+        grid-column:1
+    }
+}
+.projects__project-8{
+    grid-row:3;
+    grid-column:2
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-8{
+        grid-row:4;
+        grid-column:2
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-8{
+        grid-row:8;
+        grid-column:1
+    }
+}
+.projects__project-9{
+    grid-row:3;
+    grid-column:3
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-9{
+        grid-row:5;
+        grid-column:1
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-9{
+        grid-row:9;
+        grid-column:1
+    }
+}
+.projects__project-10{
+    grid-row:4;
+    grid-column:1
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-10{
+        grid-row:5;
+        grid-column:2
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-10{
+        grid-row:10;
+        grid-column:1
+    }
+}
 .projects__project:hover{
     -webkit-transform:translateY(-0.2rem);
     transform:translateY(-0.2rem);
@@ -583,6 +647,7 @@ to{
 }
 .project__image{
     background-size:cover;
+    background-position: center;
     height:30rem;
     border-radius:0.5rem;
 }
@@ -607,8 +672,21 @@ to{
     background-image:url(../img/controlled\ clock.png)
 }
 .project__image-6{
+    background-image:url(../img/betterdiscord\ themes.png)
+}
+.project__image-7{
+    background-image:url(../img/opera\ gx\ yt\ prev.png)
+}
+.project__image-8{
     background-image:url(../img/aon\ icons\ prev.png)
 }
+.project__image-9{
+    background-image:url(../img/aon\ icons\ prev.png)
+}
+.project__image-10{
+    background-image:url(../img/aon\ icons\ prev.png)
+}
+
 /*fields*/
 .field__image-1{
     background-image:url(../img/blogging.png)
@@ -685,6 +763,19 @@ to{
 .customizing__image-6{
     background-image:url(../img/hand\ painted\ prev.png)
 }
+.customizing__image-7{
+    background-image:url(../img/opera_gx_cursor_by_abod1960_delxefw-pre.jpg)
+}
+.customizing__image-8{
+    background-image:url(../img/paper_cursor_by_abod1960_dem6vtn-pre.jpg)
+}
+.customizing__image-9{
+    background-image:url(../img/paper_dock_icons_by_abod1960_dem7e0z-pre.jpg)
+}
+.customizing__image-10{
+    background-image:url(../img/dem786b-f2939fd5-92dc-4866-98c3-ad2d254de22b.png)
+}
+
 
 
 /*.*/
@@ -754,5 +845,5 @@ to{
 }
 .index__btn-svg{
     fill : red;
-    
+
 }
