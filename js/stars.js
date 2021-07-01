@@ -9,7 +9,7 @@ const stareight = document.querySelector('#stars-8');
 const starnine = document.querySelector('#stars-9');
 const starten = document.querySelector('#stars-10');
 const stareleven = document.querySelector('#stars-11');
-const startewleve = document.querySelector('#stars-12');
+const startwelve = document.querySelector('#stars-12');
 
 
 getStars('Dev-YT-Theme', 'Abod1960', starOne);
@@ -20,10 +20,10 @@ getStars('Nordic-Controlled-Clock', 'Abod1960', starFive);
 getStars('BetterDiscord-Translucence-Themes', 'Abod1960', starSix);
 getStars('Opera-Gx-YT-Theme', 'Abod1960', starSeven);
 getStars('Opera-Gx-YT-Theme', 'Abod1960', stareight);
-getStars('Opera-Gx-YT-Theme', 'Abod1960', starnine);
-getStars('Opera-Gx-YT-Theme', 'Abod1960', starten);
-getStars('Opera-Gx-YT-Theme', 'Abod1960', stareleven);
-getStars('Opera-Gx-YT-Theme', 'Abod1960', startewleve);
+getStars('Paper-Chrome', 'Abod1960', starnine);
+getStars('One-Commander-Paper-Theme', 'Abod1960', starten);
+getStars('Paper-YT-Theme', 'Abod1960', stareleven);
+getStars('Opera-Gx-YT-Theme', 'Abod1960', startwelve);
 
 
 function getStars(repoName, user, projectNumber) {

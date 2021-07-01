@@ -639,6 +639,22 @@ to{
         grid-column:1
     }
 }
+.projects__project-11{
+    grid-row:4;
+    grid-column:2
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-11{
+        grid-row:6;
+        grid-column:1
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-11{
+        grid-row:11;
+        grid-column:1
+    }
+}
 .projects__project:hover{
     -webkit-transform:translateY(-0.2rem);
     transform:translateY(-0.2rem);
@@ -678,14 +694,18 @@ to{
     background-image:url(../img/opera\ gx\ yt\ prev.png)
 }
 .project__image-8{
-    background-image:url(../img/aon\ icons\ prev.png)
+    background-image:url(../img/ueli\ prev.png)
 }
 .project__image-9{
-    background-image:url(../img/aon\ icons\ prev.png)
+    background-image:url(../img/paper\ chrome\ prev.jpg)
 }
 .project__image-10{
-    background-image:url(../img/aon\ icons\ prev.png)
+    background-image:url(../img/paper\ one\ commander.png)
 }
+.project__image-11{
+    background-image:url(../img/paper\ yt\ theme\ prev.png)
+}
+
 
 /*fields*/
 .field__image-1{
@@ -773,7 +793,7 @@ to{
     background-image:url(../img/paper_dock_icons_by_abod1960_dem7e0z-pre.jpg)
 }
 .customizing__image-10{
-    background-image:url(../img/dem786b-f2939fd5-92dc-4866-98c3-ad2d254de22b.png)
+    background-image:url(../img/paper\ walls.png)
 }
 
 
