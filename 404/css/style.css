@@ -38,7 +38,7 @@ body {
 }
 
 .notfound .notfound-404 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -52,13 +52,13 @@ body {
   margin-left: -12px;
   color: #353D4F;
   text-transform: uppercase;
-  text-shadow: -1px -1px 0px #353D4F, 1px 1px 0px #4c566a;
+  text-shadow: -1px -1px 0px #353D4F, 1px 1px 0px #1C2028;
   letter-spacing: -20px;
 }
 
 
 .notfound .notfound-404 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
   position: absolute;
   left: 0;
   right: 0;
@@ -73,7 +73,7 @@ body {
 }
 
 .notfound a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
   display: inline-block;
   text-transform: uppercase;
   color: #353D4F;
@@ -88,7 +88,7 @@ body {
 }
 
 .notfound a:hover {
-  color: #4c566a;
+  color: #43474e;
 }
 
 @media only screen and (max-width: 767px) {
