@@ -655,6 +655,86 @@ to{
         grid-column:1
     }
 }
+.projects__project-12{
+    grid-row:4;
+    grid-column:3
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-12{
+        grid-row:6;
+        grid-column:2
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-12{
+        grid-row:12;
+        grid-column:1
+    }
+}
+.projects__project-13{
+    grid-row:5;
+    grid-column:1
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-13{
+        grid-row:7;
+        grid-column:1
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-13{
+        grid-row:13;
+        grid-column:1
+    }
+}
+.projects__project-14{
+    grid-row:5;
+    grid-column:2
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-14{
+        grid-row:7;
+        grid-column:2
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-14{
+        grid-row:14;
+        grid-column:1
+    }
+}
+.projects__project-15{
+    grid-row:5;
+    grid-column:3
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-15{
+        grid-row:8;
+        grid-column:1
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-15{
+        grid-row:15;
+        grid-column:1
+    }
+}
+.projects__project-16{
+    grid-row:6;
+    grid-column:1
+}
+@media only screen and (max-width: 56.25em){
+    .projects__project-16{
+        grid-row:8;
+        grid-column:2
+    }
+}
+@media only screen and (max-width: 37.5em){
+    .projects__project-16{
+        grid-row:16;
+        grid-column:1
+    }
+}
 .projects__project:hover{
     -webkit-transform:translateY(-0.2rem);
     transform:translateY(-0.2rem);
@@ -670,6 +750,17 @@ to{
 @media only screen and (max-width: 56.25em){
     .project__image{
         height:30rem
+    }
+}
+@media only screen and (max-width: 64em){
+    .project__image{
+        height:25rem
+    }
+}
+
+@media only screen and (max-width: 37.5em){
+    .project__image{
+        height:15rem
     }
 }
 .project__image-1{
@@ -795,6 +886,7 @@ to{
 .customizing__image-10{
     background-image:url(../img/paper\ walls.png)
 }
+/*.*/
 
 /*FIND ME*/
 .find-me__image-1{
@@ -837,8 +929,63 @@ to{
 .find-me__image-12{
     background-image:url(../img/GMAIL.png)
 }
+.find-me__image-13{
+    background-image:url(../img/DISCORD1.png)
+}
+.find-me__image-14{
+    background-image:url(../img/REDDIT.png)
+}
+.find-me__image-15{
+    background-image:url(../img/BEHANCE.png)
+}
+.find-me__image-16{
+    background-image:url(../img/FLICKR1.png)
+}
 
 
+/*.*/
+
+/*join us*/
+.join-us__image-1{
+    background-image:url(../img/discord\ Abod1960.png)
+}
+
+.join-us__image-2{
+    background-image:url(../img/reddit\ Abod1960.png)
+}
+
+.join-us__image-3{
+    background-image:url(../img/tribe\ Abod1960.png)
+}
+
+.join-us__image-4{
+    background-image:url(../img/INSTA.png)
+}
+
+.join-us__image-5{
+    background-image:url(../img/RED\ BUBBLE.png)
+}
+.join-us__image-6{
+    background-image:url(../img/CROWDIN.png)
+}
+.join-us__image-7{
+    background-image:url(../img/HASHNODE1.png)
+}
+.join-us__image-8{
+    background-image:url(../img/BLOGGER1.png)
+}
+.join-us__image-9{
+    background-image:url(../img/VIMEO.png)
+}
+.join-us__image-10{
+    background-image:url(../img/GUMROAD.png)
+}
+.join-us__image-11{
+    background-image:url(../img/500PX.png)
+}
+.join-us__image-12{
+    background-image:url(../img/GMAIL.png)
+}
 /*.*/
 
 .project__head{
