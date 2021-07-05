@@ -8,6 +8,7 @@
     --fg: #1F242D;
     --fg-light: #d8dee9;
     --transparency: #00000000;
+    --light-news-letter:
 }
 .darktheme{
     --bg: #1C2028;
@@ -18,6 +19,7 @@
     --color-primary-dark: #353D4F;
     --fg: #d8dee9;
     --fg-light: #1F242D;
+    --dark-news-letter:
 }
 *,*::after,*::before{
     margin:0;
@@ -1056,3 +1058,8 @@ to{
     fill : red;
 
 }
+
+.news-letter:hover {
+    background: color #353d4f,!important;
+    color:white,!important;
+  }
