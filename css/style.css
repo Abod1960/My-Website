@@ -341,7 +341,8 @@ to{
     }
 }
 .about__text-special{
-    font-weight:700;color:var(--color-primary)
+    font-weight:700;
+	color:var(--color-primary)
 }
 .about__text-special2{
     font-style:italic
@@ -1079,3 +1080,7 @@ to{
     background: color #353d4f,!important;
     color:white,!important;
   }
+.ununderlined{
+	text-decoration: underline;
+	text-decoration-color: var(--color-primary);
+}
