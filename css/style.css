@@ -46,11 +46,20 @@ body{
     height:100vh;
     overflow:hidden
 }
+.intro{
+	margin-bottom:20rem;
+}
 .container{
     width:100%;
     height:100%;
     overflow-y:scroll;
     scroll-behavior:smooth
+}
+.header-con{
+	position: fixed;
+    top: 0;
+  	width: 100%;
+	background-color:var(--bg);
 }
 .header{
     padding-left:3rem;
@@ -64,7 +73,7 @@ body{
     -webkit-box-align:center;
     -ms-flex-align:center;
     align-items:center;
-    margin-bottom:10rem
+    margin-bottom:0rem;
 }
 .header__end{
     padding:3rem;
@@ -904,6 +913,9 @@ to{
 }
 .customizing__image-13{
     background-image:url(../img/Opera\ Gx\ Wallpaper\ Prev.png)
+}
+.customizing__image-14{
+    background-image:url("../img/Nord Cursor Prev.png")
 }
 
 /*.*/
