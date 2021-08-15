@@ -1488,9 +1488,9 @@ p {
 }
 .links-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1rem 3rem;
   padding: 3rem;
   /*
   padding-left: 6rem;
@@ -1500,13 +1500,14 @@ p {
 }
 @media only screen and (max-width: 56.25em) {
   .links-container {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem 1rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .links-container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
 }
@@ -1639,5 +1640,15 @@ p {
     grid-row: 2;
     grid-column: 1;
   }
+}
+.svg_links{
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  fill: var(--fg);
+  transition: fill 200ms ease-in-out 0s;
+}
+.svg_links-github{
+
 }
 
