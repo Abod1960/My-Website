@@ -20,7 +20,7 @@
   --bg-light: #1f242d;
   --bg-card: #1f242d;
   --color-primary: #353d4f;
-  --color-primary-light: #353d4f;
+  --color-primary-light: #4a4f5c;
   --color-primary-dark: #353d4f;
   --fg: #d8dee9;
   --fg-light: #1f242d;
@@ -1107,6 +1107,9 @@ body {
 .ununderlined {
   text-decoration: underline;
   text-decoration-color: var(--color-primary);
+}
+.ununderlined :hover{
+  color: var(--color-primary-light);
 }
 .about_title {
   border-bottom: 2px solid;
