@@ -17,7 +17,7 @@
     <div class="container">
       <section class="intro" id="intro">
         <div class="header-con">
-          <header class="header">
+          <header id="header">
             <a href="index.html">
               <img alt="home" src="img/my logopng.png" width="84rem" />
             </a>
@@ -444,7 +444,7 @@
           <div class="item2">
             <div class="footer_grid">
               <div class="footer_col-1 about_col">
-                <h2 class="footer_title">thing1</h2>
+                <h2 class="footer_title">Index</h2>
                 <p class="par_style">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -459,7 +459,7 @@
                 </p>
               </div>
               <div class="footer_col-2 about_col">
-                <h2 class="footer_title">thing2</h2>
+                <h2 class="footer_title">Projects</h2>
                 <p class="par_style">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -474,7 +474,7 @@
                 </p>
               </div>
               <div class="footer_col-3 about_col">
-                <h2 class="footer_title">thing3</h2>
+                <h2 class="footer_title">Blogs</h2>
                 <p class="par_style">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
@@ -492,7 +492,7 @@
                 </p>
               </div>
               <div class="footer_col-4 about_col">
-                <h2 class="footer_title">thing4</h2>
+                <h2 class="footer_title">Shop</h2>
 
                 <p class="par_style">
                   It is a long established fact that a reader will be distracted
@@ -509,7 +509,7 @@
                 </p>
               </div>
               <div class="footer_col-5 about_col">
-                <h2 class="footer_title">thing5</h2>
+                <h2 class="footer_title">Contact</h2>
 
                 <p class="par_style">
                   It is a long established fact that a reader will be distracted
@@ -530,6 +530,18 @@
         </div>
       </section>
     </div>
+	  <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("header").style.padding = "0rem 3rem";
+  } else {
+    document.getElementById("header").style.padding = "2rem 3rem";
+  }
+}
+</script>
     <script src="js/stars.js"></script>
     <script src="js/type.js"></script>
     <script src="js/theme.js"></script>
