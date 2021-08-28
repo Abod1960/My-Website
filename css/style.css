@@ -66,17 +66,16 @@ body {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-.header-con {
+#header-con {
   position: fixed;
   top: 0;
   width: 100%;
   background-color: var(--bg);
   z-index: 10;
-}
-#header {
-  padding-left: 3rem;
-  padding-right: 3rem;
   padding-top: 2rem;
+}
+.header {
+  padding: 0rem 3rem 0rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1497,7 +1496,7 @@ p {
 }
 .footer_title:hover {
   border-bottom: 3px solid;
-  font-weight: 500;
+  /*font-weight: 500;*/
   padding-bottom: 13px;
 }
 
@@ -1667,8 +1666,8 @@ p {
 }
 @media only screen and (max-width: 56.25em) {
   .svg_links {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
   }
 }
 @media only screen and (max-width: 37.5em) {
@@ -1682,7 +1681,7 @@ p {
 --------------------------------------------------------*/
 
 .svg_links-github :hover{
-  fill: #6e5494;
+  fill: var(--fg-light1);
 }
 .svg_links-deviantart :hover{
   fill: #05CC46;
@@ -1702,6 +1701,9 @@ p {
 .svg_links-500px :hover{
   fill: #000000;
 }
+.svg_links-tumblr :hover{
+  fill: #529ECC;
+}
 .svg_links-crowdin :hover{
   fill: #495166;
 }
@@ -1711,4 +1713,19 @@ p {
 .svg_links-flicker :hover .flicker2 {
   fill: #FF007E;
 }
-
+/*footer items*/
+.footer-items-con{
+  padding: 1rem 0rem;
+}
+.footer-item{
+  font-size: 2rem;
+  padding: 2px;
+  list-style: none;
+}
+.footer-links{
+  color: var(--fg);
+  text-decoration: none;
+}
+.footer-links :hover{
+  color: var(--color-primary-light);
+}
