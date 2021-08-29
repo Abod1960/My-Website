@@ -23,7 +23,7 @@
   --color-primary-light: #4a4f5c;
   --color-primary-dark: #353d4f;
   --fg: #d8dee9;
-  --fg-light: #1f242d;
+  --fg-light: #232730;
   --fg-light1: #212731;
   --fg-light2: #2a313f;
   --fg-light3: #353d4f;
@@ -72,10 +72,39 @@ body {
   width: 100%;
   background-color: var(--bg);
   z-index: 10;
-  padding-top: 2rem;
+}
+.home-logo-text{
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+}
+.home-text{
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--fg);
+  padding-left: 2rem;
+  transition: opacity 200ms ease-in-out 0s;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.fade-out{
+  opacity: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--fg);
+  padding-left: 2rem;
+  transition: opacity 200ms ease-in-out 0s;
+    transition-property: opacity;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 .header {
-  padding: 0rem 3rem 0rem 3rem;
+  padding: 2rem 3rem 0rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,6 +115,9 @@ body {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 0rem;
+}
+.header .noPadY {
+  padding-block: 0;
 }
 .header__end {
   padding: 3rem;
@@ -1314,7 +1346,7 @@ p {
 .footer {
   background-color: var(--fg-light3);
   margin-top: 0rem;
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
   scroll-snap-align: center;
 }
 @media only screen and (max-width: 56.25em) {
@@ -1429,7 +1461,9 @@ p {
   /*grid-template-areas:
     'logo logo links links links links';*/
   grid-gap: 2rem;
-  padding: 1.5rem;
+  padding: 10rem 5rem 3rem;
+  border-bottom: solid 1px;
+  border-color: var(--fg);
 }
 @media only screen and (max-width: 56.25em) {
   .footer-container {

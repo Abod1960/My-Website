@@ -16,8 +16,9 @@
     <section class="intro" id="intro">
       <div id="header-con">
         <header class="header">
-          <a href="index.html">
+          <a href="index.html" class="home-logo-text">
             <img alt="home" src="img/my logopng.png" width="84rem" />
+            <div id="hometext" class="home-text ">Abod1960</div> 
           </a>
           <div class="header__end">
             <nav class="header__navigation">
@@ -43,7 +44,7 @@
           <div class="index__text-primary">
             <p>
               I'm
-              <span class="index__text-special">Abod1960</span>
+              <span  class="index__text-special">Abod1960</span>
             </p>
           </div>
           <div class="index__text-secondary">
@@ -416,26 +417,12 @@
       </div>
     </section>
   </div>
-  <script>
-    window.onscroll = function () {
-      scrollFunction();
-    };
 
-    function scrollFunction() {
-      if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
-      ) {
-        document.getElementById("header-con").style.padding = "0rem 3rem 0rem 3rem";
-      } else {
-        document.getElementById("header-con").style.padding = "2rem 3rem 0rem 3rem";
-      }
-    }
-  </script>
   <script src="js/stars.js"></script>
   <script src="js/type.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/cube.js"></script>
+  <script src="js/fade logo caption.js"></script>
   <script>
     feather.replace();
   </script>
