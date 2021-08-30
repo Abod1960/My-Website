@@ -417,7 +417,13 @@
       </div>
     </section>
   </div>
-
+  <script>
+            window.addEventListener('scroll', function () {
+            let headerstyle = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            headerstyle.classList.toggle('scrolling-active', windowPosition);
+        })
+  </script>
   <script src="js/stars.js"></script>
   <script src="js/type.js"></script>
   <script src="js/theme.js"></script>
