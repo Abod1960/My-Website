@@ -66,7 +66,7 @@ body {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-#header-con {
+.header-con {
   position: fixed;
   top: 0;
   width: 100%;
@@ -1694,6 +1694,54 @@ p {
     grid-column: 4;
   }
 }
+.footer_link-9 {
+  grid-row: 2;
+  grid-column: 1;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer_link-9 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .footer_link-9 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+}
+.footer_link-10 {
+  grid-row: 2;
+  grid-column: 2;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer_link-10 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .footer_link-10 {
+    grid-row: 3;
+    grid-column: 2;
+  }
+}
+.footer_link-11 {
+  grid-row: 2;
+  grid-column: 3;
+}
+@media only screen and (max-width: 56.25em) {
+  .footer_link-11 {
+    grid-row: 2;
+    grid-column: 3;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .footer_link-11 {
+    grid-row: 3;
+    grid-column: 3;
+  }
+}
 /*footer svg links
 --------------------------------------------------------*/
 .svg_links{
@@ -1752,7 +1800,21 @@ p {
 .svg_links-flicker :hover .flicker2 {
   fill: #FF007E;
 }
-/*footer items*/
+.svg_links-blogger :hover{
+  fill: #fc4f08;
+}
+.svg_links-hashnode :hover{
+  fill: #2962FF;
+}
+.svg_links-gumroad :hover{
+fill: url(#MyGradient);
+}
+.svg_links-redbubble :hover{
+  fill: #EA0203;
+}
+
+/*footer items-------------------------------*/
+
 .footer-items-con{
   padding: 1rem 0rem;
 }
