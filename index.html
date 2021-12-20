@@ -13,6 +13,7 @@
 
 <body>
   <div class="container">
+    <!-- header -->
     <section class="intro" id="intro">
       <div class="header-con">
         <header class="header">
@@ -21,7 +22,12 @@
             <div id="hometext" class="home-text ">Abod1960</div> 
           </a>
           <div class="header__end">
-            <nav class="header__navigation">
+            <button id="men" class="menu-toggler active">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <nav id="hed" class="header__navigation active">
               <a href="#intro" class="header__navigation-link">Home</a>
               <a href="#about" class="header__navigation-link">About</a>
               <a href="#projects" class="header__navigation-link">Projects</a>
@@ -34,7 +40,8 @@
         </header>
       </div>
     </section>
-    <section>
+    <!-- intro -->
+    <section class="intro_sec">
       <main class="index">
         <div class="index__photo">
           <img src="img/my logopng.png" alt="index-photo" />
@@ -63,6 +70,7 @@
         </div>
       </main>
     </section>
+    <!-- about -->
     <section class="about" id="about">
       <div class="about__text">
         <div class="about__title">About me</div>
@@ -128,6 +136,7 @@
         </div>
       </div>-->
     </section>
+    <!-- projects -->
     <section class="projects" id="projects">
       <div class="projects__title">My projects in:</div>
       <div class="allprojects__container">
@@ -151,7 +160,8 @@
         </a>
       </div>
     </section>
-    <section class="projects" id="newsletter">
+    <!-- news letter -->
+    <section class="newsletter" id="newsletter">
       <div style="text-align: center">
         <a class="typeform-share button" onMouseOver="this.style.color='#68769B'"
           onMouseOut="this.style.color='#353D4F'"
@@ -201,6 +211,7 @@
         })();
       </script>
     </section>
+    <!-- waves separator -->
     <section>
       <div>
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -227,6 +238,7 @@
 
       <!--Header ends-->
     </section>
+    <!-- footer -->
     <section class="footer" id="footer">
       <div class="footer-container">
         <div class="item1">
@@ -460,17 +472,12 @@
       </div>
     </section>
   </div>
-  <script>
-            window.addEventListener('scroll', function () {
-            let headerstyle = document.querySelector('header');
-            let windowPosition = window.scrollY > 80;
-            headerstyle.classList.toggle('scrolling-active', windowPosition);
-        })
-  </script>
+  <!-- scripts -->
   <script src="js/stars.js"></script>
   <script src="js/type.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/cube.js"></script>
+  <script src="js/scripts.js"></script>
   <script>
     feather.replace();
   </script>
