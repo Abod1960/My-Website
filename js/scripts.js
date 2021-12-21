@@ -1,20 +1,21 @@
 $(document).ready(function(){
   $(window).scroll(function(){
     if(this.scrollY > 20){
-      $(".navbar").addClass("sticky");
+      $(".header").addClass("sticky");
       $(".goTop").fadeIn();
     }
     else{
-      $(".navbar").removeClass("sticky");
+      $(".header").removeClass("sticky");
       $(".goTop").fadeOut();
     }
   });
 
   $(".goTop").click(function(){scroll(0,0)});
 
-  $('#men').click(function(){
+  $('.menu-toggler').click(function(){
     $(this).toggleClass("active");
-    $("#hed").toggleClass("active");
+    $(".header__navigation").toggleClass("active");
+    $(".header__navigation").toggleClass("sp");
   });
 
   $(".works").magnificPopup({

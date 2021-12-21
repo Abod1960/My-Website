@@ -60,13 +60,18 @@ body {
   overflow: hidden;
 }
 .intro {
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
 .container {
   width: 100%;
   height: 100%;
   overflow-y: scroll;
   scroll-behavior: smooth;
+}
+@media only screen and (max-width: 68.75em) {
+  .container {
+    margin-right: 30rem;
+  }
 }
 .header-con {
   position: fixed;
@@ -99,7 +104,10 @@ body {
 }
 
 .intro_sec{
-  background-image: url();
+  background-image: url(img\500PX.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .fade-out{
   opacity: 0;
@@ -126,10 +134,12 @@ body {
   -ms-flex-align: center;
   align-items: center;
   margin-bottom: 0rem;
+  
 }
-.sticky{
+.header.sticky{
   padding: 0.2rem ;
   background-color:#13AFF0;
+  box-shadow: rgb(0 0 0 / 40%) 0px 1rem 3rem;
 }
 .header__end {
   padding: 3rem;
@@ -153,7 +163,10 @@ body {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
+}
+.sp{
   justify-content: space-between;
+
 }
 .header__navigation-link {
   margin-right: 2rem;
@@ -211,11 +224,17 @@ body {
     max-width: 400px;
     padding: 80px 50px;
     transition: .3s linear;
+    flex-direction: column;
+    box-shadow: rgb(0 0 0 / 40%) 0px 1rem 3rem;
   }
+  @media screen and (max-width: 500px){
+    .header__navigation{
+      right: -200%;
+    }
+}
 
-  .header__navigation a{
-    display: block;
-    justify-content: space-around;
+  .header__navigation-link{
+    margin: -20px;
     font-size: 30px;
     margin: 30px 0;
   }
@@ -224,7 +243,7 @@ body {
     background-color: #f1f1f1;
   }
   
-  .header__navigation.active{
+  .header__navigation.active {
     right: 0;
   }
 
@@ -242,12 +261,27 @@ body {
     bottom: 14px;
   }
 }
+.goTop{
+  position: fixed;
+  z-index: 999;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: #48dbfb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  display: none;
+}
 .index {
   scroll-snap-align: center;
-  margin-top: 8rem;
-  margin-bottom: 10rem;
-  padding-top: 6rem;
-  padding-bottom: 20rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 14rem;
+  padding-bottom: 30rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -412,7 +446,7 @@ body {
   padding: 6rem 10rem;
   padding-top: 10rem;
   margin-bottom: 10rem;
-  background-color: var(--fg-light3);
+  background-color: var(--fg-light1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1550,6 +1584,7 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: 100% 0%;
     grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 25% 75%;
   }
 }
 @media only screen and (max-width: 37.5em) {
@@ -1557,6 +1592,7 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: 100% 0%;
     grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 25% 75%;
   }
 }
 .item1 {
@@ -1912,101 +1948,7 @@ fill: url(#MyGradient);
   color: var(--color-primary-light);
 }
 /*----Digital Art--*/
-.da_con{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 100vh;
-}
-.card {
-  width: 250px;
-  height: 400px;
-  border-radius: 1.5px;
-  position: relative;
-  overflow: hidden;
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  transition: background-position .2s ease;
-}
 
-.card:hover {
-  background-position: 0 10%;
-}
-
-.card::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0,0,0, .2);
-  transform: scaleY(0);
-  transform-origin: bottom;
-  transition: transform .2s ease;
-}
-
-.card:hover::before {
-  transform: scaleY(1);
-  transform-origin: top;
-}
-
-
-.card--left {
-  background: url('https://cdnb.artstation.com/p/assets/images/images/037/877/591/large/abod1960-3-moons-land-scape.jpg?1621539924'), grey;
-  background-blend-mode: darken;
-}
-
-.card--right {
-  background:
-    url('https://cdnb.artstation.com/p/assets/images/images/040/728/499/large/abod1960-prev.jpg?1629729062'), grey;
-  background-blend-mode: multiply;
-}
-
-.card__text {
-  color: white;
-  text-align: left;
-  padding: auto;
-  margin: 1rem;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transform: translateY(230px);
-  transition: transform .2s .1s ease;
-}
-
-.card:hover .card__text {
-  transform: translateY(0);
-}
-
-.card__heading {
-  padding: .5em 0;
-  text-align: center;
-}
-
-.card__paragraph {
-  transform: translateY(100px);
-  opacity: 0;
-  transition: opacity .15s .1s ease, transform .3s .2s ease;
-}
-
-.card:hover .card__paragraph {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
-@media (max-width: 550px) {
-  body {
-    flex-direction: column;
-    padding: 4em;
-  }
-  .card--right {
-    margin-top: 3em;
-  }
-}
 /*---*/
 .art-proj-sec{
   background-image: url();
