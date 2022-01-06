@@ -1010,6 +1010,44 @@ body {
   background-image: url(../img/Video\ Editing\ 1.png);
 }
 /*.*/
+/*posts*/
+.post__image-1 {
+  background-image: url(../img/post-imgs/it\ is\ all\ about\ the\ first\ step.png);
+}
+.post__image-1:hover {
+  filter: brightness(50%);
+}
+.post__image-2 {
+  background-image: url(../img/post-imgs/magical-pen.jpg);
+}
+.post__image-2:hover {
+  filter: brightness(50%);
+}
+.post__image-3 {
+  background-image: url(../img/post-imgs/Global\ Discounts.png);
+}
+.post__image-3:hover {
+  filter: brightness(50%);
+}
+.post__image-4 {
+  background-image: url(../img/post-imgs/winter-butterflys.jpg);
+}
+.post__image-4:hover {
+  filter: brightness(50%);
+}
+.post__image-5 {
+  background-image: url(../img/post-imgs/Moons-visit.jpg);
+}
+.post__image-5:hover {
+  filter: brightness(50%);
+}
+.post__image-6 {
+  background-image: url(../img/post-imgs/Painting\ is\ easy\ when\ you\ don’t\ know\ how\,\ but\ very\ difficult\ when\ you\ do.png);
+}
+.post__image-6:hover {
+  filter: brightness(50%);
+}
+/*.*/
 /* blog*/
 .blog__image-1 {
   background-image: url(../img/hashnode.png);
@@ -2033,4 +2071,34 @@ transition: 0.25s;
 {
   opacity: 1;
   transform: scale(1);
+}
+/*-- links --*/
+.links-link{
+  color: var(--fg);
+}
+.links-link:hover{
+  color: var(--color-primary-light);
+}
+.square{
+  height: 60rem;
+}
+@media only screen and (max-width: 58.25em) {
+  .square {
+    height: 26rem;
+  }
+}
+@media only screen and (max-width: 100em) {
+  .square {
+    height: 50rem;
+  }
+}
+@media only screen and (max-width: 70em) {
+  .square {
+    height: 40rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .square {
+    height: 40rem;
+  }
 }
