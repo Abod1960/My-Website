@@ -1047,6 +1047,18 @@ body {
 .post__image-6:hover {
   filter: brightness(50%);
 }
+.post__image-7 {
+  background-image: url(../img/post-imgs/start\ this\ year.png);
+}
+.post__image-7:hover {
+  filter: brightness(50%);
+}
+.post__image-8 {
+  background-image: url(../img/post-imgs/lighting\ sky.jpg);
+}
+.post__image-8:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* blog*/
 .blog__image-1 {
