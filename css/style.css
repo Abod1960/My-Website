@@ -1066,7 +1066,7 @@ body {
   filter: brightness(50%);
 }
 /*.*/
-/* blog*/
+/* ------ blog -- */
 .blog__image-1 {
   background-image: url(../img/hashnode.png);
 }
