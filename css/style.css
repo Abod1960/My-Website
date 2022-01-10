@@ -1059,6 +1059,12 @@ body {
 .post__image-8:hover {
   filter: brightness(50%);
 }
+.post__image-9 {
+  background-image: url(../img/post-imgs/ps-challenge.png);
+}
+.post__image-9:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* blog*/
 .blog__image-1 {
