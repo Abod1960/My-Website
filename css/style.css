@@ -1065,6 +1065,12 @@ body {
 .post__image-9:hover {
   filter: brightness(50%);
 }
+.post__image-10 {
+  background-image: url(../img/post-imgs/only-cats-can-see-it.jpg);
+}
+.post__image-10:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
