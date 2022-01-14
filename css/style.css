@@ -1071,6 +1071,12 @@ body {
 .post__image-10:hover {
   filter: brightness(50%);
 }
+.post__image-11 {
+  background-image: url(../img/post-imgs/huge-lamp.png);
+}
+.post__image-11:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
