@@ -1077,6 +1077,12 @@ body {
 .post__image-11:hover {
   filter: brightness(50%);
 }
+.post__image-12 {
+  background-image: url(../img/post-imgs/tree.png);
+}
+.post__image-12:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
