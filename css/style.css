@@ -1083,6 +1083,12 @@ body {
 .post__image-12:hover {
   filter: brightness(50%);
 }
+.post__image-13 {
+  background-image: url(../img/post-imgs/whales2.png);
+}
+.post__image-13:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
