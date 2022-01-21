@@ -1089,6 +1089,12 @@ body {
 .post__image-13:hover {
   filter: brightness(50%);
 }
+.post__image-14 {
+  background-image: url(../img/post-imgs/liq.png);
+}
+.post__image-14:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
