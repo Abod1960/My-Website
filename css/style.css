@@ -1101,6 +1101,12 @@ body {
 .post__image-15:hover {
   filter: brightness(50%);
 }
+.post__image-16 {
+  background-image: url(../img/post-imgs/elc\ line.png);
+}
+.post__image-16:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
