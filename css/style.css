@@ -277,6 +277,13 @@ body {
   display: none;
   box-shadow: 0px 0px 10px var(--bg-light);
 }
+.goTop:hover{
+  bottom: 45px;
+  background-color: var(--fg-light2);
+}
+.down{
+justify-content: center;
+}
 .index {
   scroll-snap-align: center;
   margin-top: 0rem;
