@@ -1114,6 +1114,12 @@ justify-content: center;
 .post__image-16:hover {
   filter: brightness(50%);
 }
+.post__image-17 {
+  background-image: url(../img/post-imgs/Morning\ moons\ \(Medium\).png);
+}
+.post__image-17:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
