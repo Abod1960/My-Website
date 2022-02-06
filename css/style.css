@@ -1120,6 +1120,18 @@ justify-content: center;
 .post__image-17:hover {
   filter: brightness(50%);
 }
+.post__image-18 {
+  background-image: url(../img/post-imgs/b.s.png);
+}
+.post__image-18:hover {
+  filter: brightness(50%);
+}
+.post__image-19 {
+  background-image: url(../img/post-imgs/red-flag.png);
+}
+.post__image-19:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
