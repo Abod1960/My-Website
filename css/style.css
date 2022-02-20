@@ -7,10 +7,10 @@
   --color-primary-light: #68769b;
   --color-primary-dark: #353d4f;
   --fg: #1f242d;
-  --fg-light: #d8dee9;
-  --fg-light1: #c9d0db;
-  --fg-light2: #b5bac4;
-  --fg-light3: #a6aebe;
+  --fg-light: #a6aebe;
+  --fg-light1: #aab3c5;
+  --fg-light2: #c9d0db;
+  --fg-light3: #d8dee9;
   --transparency: #00000000;
   --light-news-letter: ;
   --cubetext: rgba(0, 0, 0, 0.1);
@@ -2104,7 +2104,12 @@ transition: 0.25s;
 .svg_links-redbubble :hover{
   fill: #EA0203;
 }
-
+.svg_links-linkedin :hover{
+  fill: #2867B2;
+}
+.svg_links-reddit :hover{
+  fill: #FF5700;
+}
 /*footer items-------------------------------*/
 
 .footer-items-con{
