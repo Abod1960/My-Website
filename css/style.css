@@ -1138,6 +1138,12 @@ justify-content: center;
 .post__image-20:hover {
   filter: brightness(50%);
 }
+.post__image-21 {
+  background-image: url(../img/post-imgs/expo.png);
+}
+.post__image-21:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
