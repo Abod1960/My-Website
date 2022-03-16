@@ -283,6 +283,11 @@ body {
 }
 .down{
 justify-content: center;
+padding-top: 1rem;
+}
+.newsletter__button-icon {
+  margin-right: 2rem;
+  width: 2rem;
 }
 .index {
   scroll-snap-align: center;
@@ -2121,6 +2126,9 @@ transition: 0.25s;
 }
 .svg_links-reddit :hover{
   fill: #FF5700;
+}
+.svg_links-discord :hover{
+  fill: #5865f2;
 }
 /*footer items-------------------------------*/
 
