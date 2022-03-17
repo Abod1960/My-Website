@@ -2130,7 +2130,7 @@ transition: 0.25s;
 .svg_links-discord :hover{
   fill: #5865f2;
 }
-/*footer items-------------------------------*/
+/*footer items--------------------------------------------------------*/
 
 .footer-items-con{
   padding: 1rem 0rem;
@@ -2147,7 +2147,20 @@ transition: 0.25s;
 .footer-links :hover{
   color: var(--color-primary-light);
 }
-/*----Digital Art--*/
+/*----About page-------------------------------------------------------*/
+.about_special_link{
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 2.1rem;
+  line-height: 1.8;
+}
+.about_special_link:hover{
+  color: var(--fg-light);
+}
+.footnote{
+  font-size: 1rem;
+}
+/*----Digital Art------------------------------------------------------*/
 
 /*---*/
 .art-proj-sec{
