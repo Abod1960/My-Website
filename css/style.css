@@ -1,5 +1,5 @@
 @import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
-:root {
+.darktheme {
   --bg: #fbfbfc;
   --bg-light: #4c566a;
   --bg-card: #eceff4;
@@ -16,7 +16,7 @@
   --cubetext: rgba(0, 0, 0, 0.1);
   --art-thumb-hov: #eceff4cc
 }
-.darktheme {
+:root {
   --bg: #1c2028;
   --bg-light: #1f242d;
   --bg-card: #1f242d;
@@ -1440,7 +1440,6 @@ padding-top: 1rem;
 .about_cols__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   grid-gap: 5rem;
 }
 @media only screen and (max-width: 58.25em) {

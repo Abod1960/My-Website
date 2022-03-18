@@ -5,14 +5,14 @@ const themeToggle = document.querySelector('#themeButton');
 const enableDark = () => {
     document.body.classList.add('darktheme');
     localStorage.setItem('darkTheme', 'enabled');
-    themeToggle.innerHTML = `<i id="bicon" data-feather="sun"></i>`;
+    themeToggle.innerHTML = `<i id="bicon" data-feather="moon"></i>`;
     feather.replace();
 };
 
 const disableDark = () => {
     document.body.classList.remove('darktheme');
     localStorage.setItem('darkTheme', null);
-    themeToggle.innerHTML = `<i id="bicon" data-feather="moon"></i>`;
+    themeToggle.innerHTML = `<i id="bicon" data-feather="sun"></i>`;
     feather.replace();
 };
 
