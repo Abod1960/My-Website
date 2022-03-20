@@ -1155,6 +1155,12 @@ padding-top: 1rem;
 .post__image-22:hover {
   filter: brightness(50%);
 }
+.post__image-23 {
+  background-image: url(../img/post-imgs/Barry\ Webb.png);
+}
+.post__image-23:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
