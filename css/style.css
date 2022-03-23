@@ -2169,21 +2169,30 @@ transition: 0.25s;
 
 /*---*/
 .art-proj-sec{
-  background-image: url();
+  background:linear-gradient(var(--bg), rgba(0,0,0,.1)), url(https://source.unsplash.com/user/abod1960) no-repeat;
+  background-size: cover;
+  padding-top: 6rem;
 }
-.works{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+
 .inner-width{
   max-width: 1300px;
   margin: auto;
   padding: 0 7rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.works{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .artwork{
-  width: calc(33% - 10px);
+  width: calc(100% - 10px);
   height:fit-content;
   overflow: hidden;
   border-radius: 1.5px;
@@ -2232,7 +2241,7 @@ transition: 0.25s;
 }
 
 .artwork:hover img{
-  transform: scale(1.6) rotate(5deg);
+  transform: scale(1.2) rotate(2deg);
 }
 
 .artwork:hover::before,
