@@ -2173,15 +2173,22 @@ transition: 0.25s;
 
 /*---*/
 .art-proj-sec{
-  background:linear-gradient(var(--bg), rgba(0,0,0,.1)), url(https://source.unsplash.com/user/abod1960) no-repeat;
-  background-size: cover;
-  padding-top: 6rem;
+  background:linear-gradient(var(--bg), rgba(0,0,0,.1)), url(/img/transparent_picture.png) no-repeat;
+  background-image: url(/img/rec.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-position-x: 500px;
+  background-position-y: 700px;
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-top: 40px;
+  background-attachment: fixed;
+  background-size: 11em;
 }
 
 .inner-width{
-  max-width: 1300px;
-  margin: auto;
-  padding: 0 7rem;
+  margin: 0 7rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: row;
 }
