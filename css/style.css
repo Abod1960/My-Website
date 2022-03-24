@@ -570,12 +570,14 @@ padding-top: 1rem;
   background-color: var(--transparency);
   -webkit-appearance: none;
   -moz-appearance: none;
+  fill: var(--fg);
 }
 .about__button:hover {
   border: 0.3rem solid var(--color-primary);
 }
 .about__button:hover a {
   color: var(--color-primary);
+  fill: var(--color-primary);
 }
 .about__button-link {
   text-decoration: none;
@@ -591,6 +593,7 @@ padding-top: 1rem;
   -ms-flex-align: center;
   align-items: center;
   font-size: 1.9rem;
+  fill: var(--fg);
 }
 .about__button-icon {
   margin-right: 0.5rem;
