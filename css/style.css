@@ -597,6 +597,7 @@ padding-top: 1rem;
   width: 2rem;
   height: 2rem;
 }
+
 .projects {
   padding: 6rem 4rem;
   margin-top: 2rem;
@@ -2181,7 +2182,11 @@ transition: 0.25s;
   display: flex;
   flex-direction: row;
 }
-
+@media screen and (max-width: 980px){
+  .inner-width{
+    flex-direction: column;
+  }
+}
 .works{
   display: flex;
   justify-content: flex-start;
@@ -2202,7 +2207,7 @@ transition: 0.25s;
 }
 @media screen and (max-width: 980px){
   .artwork{
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
   }
 }
 @media screen and (max-width: 600px){
