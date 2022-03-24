@@ -2187,7 +2187,7 @@ transition: 0.25s;
 }
 
 .inner-width{
-  margin: 0 7rem;
+  margin: 0 3rem;
   padding: 0 1rem;
   display: flex;
   flex-direction: row;
