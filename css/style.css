@@ -1165,6 +1165,12 @@ padding-top: 1rem;
 .post__image-23:hover {
   filter: brightness(50%);
 }
+.post__image-24 {
+  background-image: url(../img/post-imgs/CintaVidal.jpg);
+}
+.post__image-24:hover {
+  filter: brightness(50%);
+}
 /*.*/
 /* ------ blog -- */
 .blog__image-1 {
