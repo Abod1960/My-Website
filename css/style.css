@@ -191,14 +191,14 @@ body {
   -moz-appearance: none;
 }
 .menu-toggler{
-  background: none;
-  width: 30px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  outline: none;
-  z-index: 999;
-  display: none;
+    background: none;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    display: none;
 }
 
 .menu-toggler span{
@@ -2175,8 +2175,21 @@ transition: 0.25s;
 .footnote{
   font-size: 1rem;
 }
+.footnote a{
+	color: var(--fg)
+}
+.footnote a:hover{
+	color: var(--color-primary-light)
+}
 /*----Digital Art------------------------------------------------------*/
-
+.cat{
+	color: var(--fg);
+	fill: var(--fg);
+	font-size: 1.5rem;
+	display: flex;
+	margin-top: 1rem;
+	border: 
+}
 /*---*/
 .art-proj-sec{
   background:linear-gradient(var(--bg), rgba(0,0,0,.1)), url(/img/transparent_picture.png) no-repeat;
@@ -2185,8 +2198,6 @@ transition: 0.25s;
   background-position: right top;
   background-position-x: 500px;
   background-position-y: 700px;
-  margin-left: 100px;
-  margin-right: 200px;
   margin-top: 40px;
   background-attachment: fixed;
   background-size: 11em;
