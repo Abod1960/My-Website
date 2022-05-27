@@ -2182,6 +2182,14 @@ transition: 0.25s;
 	color: var(--color-primary-light)
 }
 /*----Digital Art------------------------------------------------------*/
+.art-section_title{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .cat{
 	color: var(--fg);
 	fill: var(--fg);
