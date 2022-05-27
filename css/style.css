@@ -2191,7 +2191,15 @@ transition: 0.25s;
 	display: flex;
 	margin-top: 1rem;
 }
-/*---*/
+
+.icons_container{
+  padding: 1rem;
+}
+
+.small_icons{
+  fill: var(--fg);
+}
+
 .art-proj-sec{
   background:linear-gradient(var(--bg), rgba(0,0,0,.1)), url(/img/transparent_picture.png) no-repeat;
   background-image: url(/img/rec.png);
@@ -2277,9 +2285,9 @@ transition: 0.25s;
   opacity: 0;
 }
 
-.artwork:hover img{
+/* .artwork:hover img{
  
-}
+} */
 
 .artwork:hover::before,
 .artwork:hover .info
@@ -2319,6 +2327,7 @@ transition: 0.25s;
     height: 40rem;
   }
 }
+/*---*/
 /*404 Page -------------------------------------------*/
 #notfound {
   position: relative;
