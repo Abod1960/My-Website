@@ -282,7 +282,7 @@ body {
     -webkit-transform: translateY(-13px) rotate(90deg);
     -ms-transform: translateY(-13px) rotate(90deg);
     -o-transform: translateY(-13px) rotate(90deg);
-    transform: translateY(-13px) rotate(90deg);
+    transform: translateY(-5px) rotate(90deg);
   }
   
 }
