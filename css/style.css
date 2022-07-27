@@ -2695,6 +2695,25 @@ transition: 0.25s;
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
+@media screen and (max-width: 56rem) {
+  .card {
+   width: 560px;
+   height: 220px;
+ }
+}
+@media screen and (max-width: 35rem) {
+  .card {
+   width: 360px;
+   height: 220px;
+ }
+}
+@media screen and (max-width: 25rem) {
+  .card {
+   width: 260px;
+   height: 120px;
+ }
+}
+
 .card-bg {
   opacity: 0.5;
   position: absolute;
