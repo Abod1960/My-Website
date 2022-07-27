@@ -1800,7 +1800,6 @@ p {
     'logo logo links links links links';*/
   grid-gap: 2rem;
   padding: 10rem 5rem 3rem;
-  border-bottom: solid 1px;
   border-color: var(--fg);
 }
 @media only screen and (max-width: 58.25em) {
@@ -1816,7 +1815,7 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: 100% 0%;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-rows: 35% 65%;
+    grid-template-rows: 25% 75%;
   }
 }
 .item1 {
