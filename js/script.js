@@ -9,7 +9,7 @@ Vue.component('card', {
       ref="card">
       <div class="card"
         :style="cardStyle">
-        <div class="card-bg droptop4" :style="[cardBgTransform, cardBgImage]"></div>
+        <div class="card-bg " :style="[cardBgTransform, cardBgImage]"></div>
         <div class="card-info">
           <slot name="header"></slot>
           <slot name="content"></slot>

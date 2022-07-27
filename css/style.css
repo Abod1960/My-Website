@@ -14,7 +14,8 @@
   --transparency: #00000000;
   --light-news-letter: ;
   --cubetext: rgba(0, 0, 0, 0.1);
-  --art-thumb-hov: #eceff4cc
+  --art-thumb-hov: #eceff4cc;
+  --fg-transparent: #d8dee95e;
 }
 :root {
   --bg: #1c2028;
@@ -31,6 +32,7 @@
   --dark-news-letter: ;
   --cubetext: rgba(255, 255, 255, 0.1);
   --art-thumb-hov: #1f242dcc;
+  --fg-transparent: #1f242d5e;
 }
 *,
 *::after,
@@ -2627,18 +2629,19 @@ transition: 0.25s;
   background-image: url(../img/onecommander.png); 
   background-repeat: no-repeat; 
   background-color:var(--bg-card)
- }
+ }*/
  .sub_link{
-  color: var(--color-primary);
+  color: var(--fg);
  }
  .sub_link:hover{
   color: var(--color-primary-light);
- } */
+ } /*
  /*---------------------------------------------------------------*/
  /* Parallax Depth Cards -----------------*/
 
 .cards_p {
   line-height: 1.5em;
+  font-size: 1.5rem;
 }
 
 .cards_h1 + .cards_p, .cards_p + .cards_p {
@@ -2684,9 +2687,9 @@ transition: 0.25s;
 .card {
   position: relative;
   flex: 0 0 240px;
-  width: 240px;
+  width: 840px;
   height: 320px;
-  background-color: #333;
+  background-color: var(--bg-card);
   overflow: hidden;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px, inset rgba(255, 255, 255, 0.5) 0 0 0 6px;
@@ -2710,9 +2713,10 @@ transition: 0.25s;
 
 .card-info {
   padding: 20px;
+  width: 100%;
   position: absolute;
   bottom: 0;
-  color: #fff;
+  color: var(--fg);
   transform: translateY(40%);
   transition: 0.6s 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
@@ -2733,7 +2737,7 @@ transition: 0.25s;
   z-index: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, var(--fg-transparent) 100%);
   background-blend-mode: overlay;
   opacity: 0;
   transform: translateY(100%);
@@ -2745,8 +2749,4 @@ transition: 0.25s;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
 }
-.droptop4{
-  background-image: url(../img/droptop-4.png); 
-  background-repeat: no-repeat; 
- }
  /*---------------------------------------------------------------*/
