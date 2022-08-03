@@ -51,7 +51,7 @@
             Then I started <span class="about__text-special">loving</span> this sort of stuff...
           </div>
           <div class="about__text-p">
-            <span class="about__text-special">But where is I'm now?</span> you could say that I learned a lot about many things but the most thing important I learned is
+            <span class="about__text-special">But where am I now?</span> you could say that I learned a lot about many things but the most thing important I learned is
              that there is always a new thing to learn, and at all times when I learn new things 
              I understand that what I learned is just a <span class="about__text-special">drop</span> of a <span class="about__text-special">sea</span> of <span class="about__text-special">knowledge</span>.
           </div>
@@ -64,7 +64,39 @@
       </section>
       <section class="projects" id="projects">
         <div class="projects__title">My projects</div>
-        <div class="projects__container">
+        <div id="app" class="cards_container">
+          <a href="https://github.com/Moonlight-color-theme">
+          <card data-image="img/moonlight-color-theme.png">
+            <h1 class="cards_h1" slot="header">Moonlight Color theme</h1>
+            <p class="cards_p" slot="content">A color theme inspired by the camping vibe 🏕</p>
+          </card>
+          </a>
+          <a href="https://github.com/Micro-Nordic">
+          <card data-image="img/Micor-Nordic.png">
+            <h1 class="cards_h1" slot="header">Micro Noirdic Ports</h1>
+            <p class="cards_p" slot="content">A micro Nordic ports hub for Nord theme lovers 🏔</p>
+          </card>
+          </a>
+          <a href="https://github.com/stars/Abod1960/lists/opera-gx-neon-themes">
+          <card data-image="img/OPERA-gx-neon-themes.png">
+            <h1 class="cards_h1" slot="header">Opera Gx, Neon Themes</h1>
+            <p class="cards_p" slot="content">2 YT themes based on opera Gx and opera neon color palettes</p>
+          </card>
+          </a>
+          <a href="https://github.com/stars/Abod1960/lists/dev-color-theme">
+          <card data-image="img/dev-ports.png">
+            <h1 class="cards_h1" slot="header">Dev Ports</h1>
+            <p class="cards_p" slot="content">Dev theme is a color palette made by KDr3w, and after extracting the colors I used it to produce some themes for some applications</p>
+          </card>
+          </a>
+          <a href="https://github.com/stars/Abod1960/lists/paper-color-theme">
+          <card data-image="img/Paperic-ports.png">
+            <h1 class="cards_h1" slot="header">Paperic Ports</h1>
+            <p class="cards_p" slot="content">Paper is a color theme by Niivu, but I took these colors and applied them to more than one applicaation.</p>
+          </card>
+          </a>
+        </div>
+        <!-- <div class="projects__container">
           <a
             class="projects__project projects__project-1"
             href="https://github.com/Abod1960/Dev-YT-Theme"
@@ -302,12 +334,13 @@
               </div>
             </div>
           </a>
-        </div>
+        </div> -->
       </section>
     </div>
     <script src="js/stars.js"></script>
     <script src="js/type.js"></script>
     <script src="js/theme.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script><script src="js/script.js"></script>
     <script>
       feather.replace();
     </script>

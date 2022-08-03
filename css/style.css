@@ -1424,6 +1424,10 @@ padding-top: 1rem;
     font-size: 1.9rem;
   }
 }
+.coding_cards_links{
+  width: 100%;
+  height: 100%;
+}
 /*my edites*/
 .index__links-svg {
   width: 3.8rem;
@@ -2704,16 +2708,22 @@ transition: 0.25s;
    width: 360px;
    height: 220px;
  }
+ .card-info .cards_h1 {
+  font-size: 2rem!important;
+}
 }
 @media screen and (max-width: 25rem) {
   .card {
    width: 260px;
    height: 120px;
  }
+ .card-info .cards_h1 {
+  font-size: 1.7rem!important;
+}
 }
 
 .card-bg {
-  opacity: 0.5;
+  opacity: 1;
   position: absolute;
   top: -20px;
   left: -20px;
@@ -2726,10 +2736,13 @@ transition: 0.25s;
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95), opacity 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   pointer-events: none;
 }
+.card-bg:hover {
+  opacity: 0.7;
+}
 
 .card-info {
   padding: 20px;
-  width: 100%;
+  width: 90%;
   position: absolute;
   bottom: 0;
   color: var(--fg);
@@ -2761,7 +2774,7 @@ transition: 0.25s;
 }
 
 .card-info .cards_h1 {
-  font-size: 36px;
+  font-size: 3rem;
   font-weight: 700;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
 }
