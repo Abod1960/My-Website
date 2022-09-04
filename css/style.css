@@ -630,7 +630,7 @@ padding-top: 1rem;
 }
 
 .projects {
-  padding: 10rem 15rem 10rem 15rem;
+  padding: 10rem 5rem 10rem 5rem;
   margin-top: 2rem;
   scroll-snap-align: center;
 }
@@ -670,19 +670,16 @@ padding-top: 1rem;
 .allprojects__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
   grid-gap: 1rem;
 }
 @media only screen and (max-width: 58.25em) {
   .allprojects__container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
 }
 @media only screen and (max-width: 37.5em) {
   .allprojects__container {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
   }
 }
 .projects__project {
@@ -1238,13 +1235,11 @@ padding-top: 1rem;
 @media only screen and (max-width: 58.25em) {
   .about_cols__container {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
   }
 }
 @media only screen and (max-width: 37.5em) {
   .about_cols__container {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
   }
 }
 .allabout_cols__container {
