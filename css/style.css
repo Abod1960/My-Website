@@ -309,6 +309,29 @@ body {
   bottom: 45px;
   background-color: var(--fg-light2);
 }
+
+.kofi{
+  position: fixed;
+  z-index: 999;
+  bottom: 30px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--fg-light3);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--bg-light);
+  outline: none;
+  display: none;
+  box-shadow: 0px 0px 10px var(--bg-light);
+  padding: 5px;
+}
+.kofi:hover{
+  bottom: 35px;
+  background-color: var(--fg-light2);
+}
+
 .down{
 justify-content: center;
 padding-top: 1rem;
