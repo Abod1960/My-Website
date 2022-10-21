@@ -1575,7 +1575,7 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: 100% 0%;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-rows: 35% 65%;
+    grid-template-rows: 30%;
   }
 }
 @media only screen and (max-width: 37.5em) {
@@ -1583,7 +1583,7 @@ p {
     grid-template-columns: repeat(1, 1fr);
     grid-template-columns: 100% 0%;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-rows: 25% 75%;
+    grid-template-rows: 25%;
   }
 }
 .item1 {
