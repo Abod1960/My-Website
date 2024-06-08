@@ -653,13 +653,13 @@ padding-top: 1rem;
 }
 
 .projects {
-  padding: 10rem 5rem 10rem 5rem;
   margin-top: 2rem;
   scroll-snap-align: center;
+  padding: 2rem 5rem;
 }
 @media only screen and (max-width: 58.25em) {
   .projects {
-    padding: 6rem 4rem;
+    padding: 0rem;
   }
 }
 .projects__title {
@@ -2004,7 +2004,6 @@ transition: 0.25s;
 
 .art-proj-sec{
   background:linear-gradient(var(--bg), rgba(0,0,0,.1)), url(/img/transparent_picture.png) no-repeat;
-  background-image: url(/img/rec.png);
   background-repeat: no-repeat;
   background-position: right top;
   background-position-x: 500px;
@@ -2012,6 +2011,8 @@ transition: 0.25s;
   margin-top: 40px;
   background-attachment: fixed;
   background-size: 11em;
+  padding: 0rem;
+  margin: 0rem 0rem 10rem 0rem !important;
 }
 
 .inner-width{
@@ -2563,4 +2564,12 @@ transition: 0.25s;
   background: var(--color-primary);
   border-radius: 10vw;
 }
+/*---------------------------------------*/
+
+/*waves effect */
+
+.waves{
+  line-height: 0px;
+}
+
 /*---------------------------------------*/
